@@ -1,0 +1,87 @@
+html,body{
+	height: 100%;
+}
+
+body {
+	font-family: "微软雅黑",sans-serif;
+	padding-top: 70px;
+}
+
+#container-fluid-nav{
+	width: 80%;
+}
+/*限制顶部导航栏内容区宽度*/
+
+.wrapper{
+	min-height: 100%;
+	margin-top: -20px;
+}
+.nav{
+	margin-bottom: 0;
+}
+
+.side-nav{
+	position: fixed;
+	top: 51px;
+    left: 0;
+    width: 200px;
+    border: none;
+    background-color: #222;
+    text-align: center;
+	height: 100%;
+}
+/*左侧导航*/
+
+.side-nav>ul{
+	background-color: #222;
+	padding: 0;
+	margin: 0;
+}
+
+.side-nav li{
+	list-style: none;
+}
+
+.side-nav li>a{
+	color: #9d9d9d;
+	text-decoration: none;
+	font-size: 15px;
+	width: 200px;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+}
+
+.side-nav li:hover{
+	background-color: #333;
+}
+
+.content{
+	margin-left: 200px;
+}
+/*主体内容区*/
+
+@media (min-width: 1330px) {
+	#header-of-page{
+		font-size: 28px;
+		margin-top: -30px;
+		margin-left: 100px;
+	}
+
+	#header-of-page>small{
+		margin: 0 50px;
+	}
+}
+/*定位页面标题,使用媒体查询适应1366和1920px宽度分辨率*/
+
+@media (min-width: 1900px) {
+	#header-of-page{
+		font-size: 28px;
+		margin-top: -10px;
+		margin-left: 100px;
+	}
+
+	#header-of-page>small{
+		margin: 0 50px;
+	}
+}

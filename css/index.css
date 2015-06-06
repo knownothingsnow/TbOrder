@@ -1,0 +1,75 @@
+.list-group li{
+	margin-top: 10px;
+}
+
+.btn-self{
+	margin-bottom: 10px;
+}/*自定义,拉开检索区菜单间隔*/
+
+.menu-title{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}/*加大检索区二级菜单标题*/
+
+.btn-icno{
+	position: absolute;
+	right:18px;
+	bottom: 18px;
+}/*定位列表项上的四个按钮*/
+
+li p{
+	display: inline;
+}
+
+li h4 a{
+	color: #000;
+}
+
+.col-md-3.col-lg-2 {
+  margin-top: 10px;
+}/*向下移动检索区*/
+
+.btn-toolbar{
+	margin-bottom: 20px;
+}/*向上移动分页按钮*/
+
+.list-group-item{
+	color:#000;
+	border-radius: 4px;
+}/*重写列表项*/
+
+.list-group-item-default{
+	background-color: #DDD8F0;
+}/*增加两种列表项颜色状态*/
+
+.list-group-item-primary{
+	background-color: #F2E2A0;
+}/*增加两种列表项颜色状态*/
+
+div.alert>p{
+	display: inline;
+	margin-right: 20px;
+}/*定位删除列表项的弹出框*/
+
+.alert.alert-danger.alert-dismissible.fade.in {
+  margin-top: 10px;
+  width: 70%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}/*定位删除列表项的弹出框*/
+
+.alert.alert-danger.alert-dismissible.fade.in h5{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+/*.alert.alert-danger.alert-dismissible.fade.in {
+  margin-top: 10px;
+  width: 70%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  
+}/*小分辨率下样式*/

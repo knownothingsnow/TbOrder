@@ -1,0 +1,4 @@
+1.根据application.xml文件建立数据库和设置密码
+2.建立数据库后在有外键的表中 手动设置Cascade
+3.struts.xml文件中有说明上传文件目录
+4.interceptor.java-参数xh为传送门

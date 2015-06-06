@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<!-- // 缓存目录 C:\Tomcat\work\Catalina\localhost\TbOrder\ -->
+	<!-- 默认在work、/temp在根磁盘temp下、temp在Tomcat\bin\temp下、 -->
+	<constant name="struts.multipart.saveDir" value=""/>
+ 	<constant name="struts.multipart.maxSize" value="1000000000000"/>
+ 	<!-- 发布前修改为false -->
+	<constant name="struts.devMode" value="true"></constant>
+	<constant name="struts.configuration.xml.reload" value="true"></constant>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<constant name="struts.server.static.browserCache" value="false"></constant>
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+	<constant name="struts.objectFactory.spring.autoWire.alwayRespect" value="true"></constant>
+	
+	<constant name="struts.objectFactory" value="spring"></constant>
+
+	<include file="resources/base.xml"></include>
+	<include file="resources/main.xml"></include>
+
+</struts>

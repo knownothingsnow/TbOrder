@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	
+	<include file="resources/base.xml"></include>
+	
+	<package name="index" extends="base" namespace="/">
+		<action name="index">
+			<result>/WEB-INF/page/foreground/main/index.jsp</result>
+		</action>
+		<action name="backIndex" class="com.to.action.AdministratorAction" method="backAdminCreateView">
+			<result>/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+		<action name="login">
+			<result>/WEB-INF/page/foreground/main/login.jsp</result>
+		</action>
+	</package>
+	
+	<!-- administrator -->
+	<package name="admin" extends="base" namespace="/admin">
+		<action name="adminLogin" class="com.to.action.AdministratorAction" method="adminLogin">
+			<result name="success">/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+		<action name="b*" class="com.to.action.AdministratorAction" method="back{1}">
+			<result>/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+		<action name="*" class="com.to.action.AdministratorAction" method="{1}">
+			<result>/WEB-INF/page/foreground/main/index.jsp</result>
+		</action>
+	</package>
+	
+	<!-- ProductAssortment -->
+	<package name="productAssortment" extends="base" namespace="/productAssortment">
+		<action name="b*" class="com.to.action.product.ProductAssortmentAction" method="back{1}">
+			<result>/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+	</package>
+	
+	<!-- Product -->
+	<package name="product" extends="base" namespace="/product">
+		<action name="b*" class="com.to.action.product.ProductAction" method="back{1}">
+			<result>/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+	</package>
+	
+	<!-- CustomerService -->
+	<package name="customerService" extends="base" namespace="/customerService">
+		<action name="customerLogin" class="com.to.action.user.CustomerServiceAction" method="customerLogin">
+			<result name="success">/WEB-INF/page/foreground/main/index.jsp</result>
+			<result name="error" type="chain">
+				<param name="actionName">processLogin</param>
+				<param name="namespace">/processStaff</param>
+			</result>
+		</action>
+		<action name="customerLoginout" class="com.to.action.user.CustomerServiceAction" method="customerLoginout">
+			<result name="error" type="chain">
+				<param name="actionName">processLoginout</param>
+				<param name="namespace">/processStaff</param>
+			</result>
+		</action>
+		<action name="updateView" class="com.to.action.user.CustomerServiceAction" method="updateView">
+			<result name="success">/WEB-INF/page/foreground/main/index.jsp</result>
+			<result name="error" type="chain">
+				<param name="actionName">updateView</param>
+				<param name="namespace">/processStaff</param>
+			</result>
+		</action>
+		<action name="b*" class="com.to.action.user.CustomerServiceAction" method="back{1}">
+			<result>/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+		<action name="*" class="com.to.action.user.CustomerServiceAction" method="{1}">
+			<result>/WEB-INF/page/foreground/main/index.jsp</result>
+		</action>
+	</package>
+	
+	<!-- ProcessStaff -->
+	<package name="processStaff" extends="base" namespace="/processStaff">
+		<action name="processLogin" class="com.to.action.user.ProcessStaffAction" method="processLogin">
+			<result name="success">/WEB-INF/page/foreground/main/index.jsp</result>
+			<result name="error" type="chain">
+				<param name="actionName">adminLogin</param>
+				<param name="namespace">/admin</param>
+			</result>
+		</action>
+		<action name="processLoginout" class="com.to.action.user.ProcessStaffAction" method="processLoginout">
+		</action>
+		<action name="updateView" class="com.to.action.user.ProcessStaffAction" method="updateView">
+			<result name="success">/WEB-INF/page/foreground/main/index.jsp</result>
+		</action>
+		<action name="b*" class="com.to.action.user.ProcessStaffAction" method="back{1}">
+			<result>/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+		<action name="*" class="com.to.action.user.ProcessStaffAction" method="{1}">
+			<result>/WEB-INF/page/foreground/main/index.jsp</result>
+		</action>
+	</package>
+	
+	<!-- Order -->
+	<package name="orders" extends="base" namespace="/orders">
+		<action name="b*" class="com.to.action.OrdersAction" method="{1}">
+			<result>/WEB-INF/page/background/main/index.jsp</result>
+		</action>
+		<action name="*" class="com.to.action.OrdersAction" method="{1}">
+			<result>/WEB-INF/page/foreground/main/index.jsp</result>
+		</action>
+	</package>
+	
+</struts>
