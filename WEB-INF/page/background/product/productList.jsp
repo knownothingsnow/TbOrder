@@ -60,7 +60,8 @@
 			</select></small></h1>
 			</div>
 	
-  	<section>
+  	<!-- 设置内边距，将表格实现缩进 -->
+  	<section style="padding:0 50px;">
 		<table class="table table-hover table-striped" id="productListTable">
 			<tr>
 				<th>商品名称</th>

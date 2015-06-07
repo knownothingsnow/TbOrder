@@ -87,7 +87,8 @@
 	</section>
 	<br><hr>
 	
-  	<section>
+	<!-- 设置内边距，将表格实现缩进 -->
+  	<section style="padding:0 50px;">
 		<table class="table table-hover table-striped" id="customerServiceListTable">
 			<tr>
 				<th>姓名</th>
