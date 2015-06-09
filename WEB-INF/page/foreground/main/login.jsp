@@ -12,7 +12,7 @@
 <html>
 <head>
 <base href="<%=basePath%>">
-<title>Lemon订单管理系统</title>
+<title>login</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">

@@ -12,19 +12,10 @@
 <html>
 <head>
 <base href="<%=basePath%>">
-<title>Order</title>
+<title>录入订单</title>
 <meta charset="utf-8" >
 <script type="text/javascript">
 function checkForm() {
-	/*
-	if(ue.getContentTxt()=="") {
-		alert("请输入内容");
-		return false;
-	}
-	if(ordersTypeId.selectedIndex== 0) {
-		alert("please selete the ordersType!!");
-		return false;
-	}*/
 	return true;
 }
   	function toProduct() {

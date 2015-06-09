@@ -62,7 +62,7 @@ function toDetail(o) {
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 col-lg-12 page-header">
-          <h1 id="header-of-page">特定订单列表<small>没有其他查询方式!</small></h1>
+          <h1 id="header-of-page">回收站<small>没有其他查询方式!</small></h1>
         </div>
       </div>
       <div class="row">
@@ -89,7 +89,7 @@ function toDetail(o) {
           </ul>
         </div>
       </div>
-		<jsp:include page="/WEB-INF/page/background/main/page.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/page/foreground/main/page.jsp"></jsp:include>
     </div>
 
 </body>
