@@ -14,6 +14,7 @@
 <base href="<%=basePath%>">
 <title>CustomerService</title>
 <meta charset="utf-8" >
+<link href="../../../../css/admin.css">
 <script type="text/javascript">
 function xmlCheck() {
 	$.post("customerService/bCreateRepeat"
@@ -45,7 +46,7 @@ function checkForm() {
 <body>
     <div class="container-fluid" id="page-wrapper">
       <div class="row">
-          <div class="col-md-12 page-header">
+          <div class="col-md-12 page-header" style="padding-left:30px;">
 			<s:if test="#request.customerService==null">
 				<h2>客服创建</h2>
 			</s:if>
@@ -54,37 +55,38 @@ function checkForm() {
 			</s:else>
           </div>
           
-        <div class="col-md-12 form-cent" style="text-align: center;">
+        <div class="col-md-12" style="text-align:center">
 		<form action="customerService/bCreate"
 		onsubmit="return checkForm()" method="post" enctype="multipart/form-data" class="form-horizontal">
 	
-            <div class="form-group" style="margin-bottom: 60px;">
-              <label for="inputID" class="col-sm-1 control-label">用户名</label>
-              <div class="col-sm-3">
-			<input type="text" value="${customerService.username }" name="customerService.username" required="required" placeholder="用户名" 
-				onblur="xmlCheck()" id="usernameId" autofocus="autofocus" class="form-control"/></div>
-              <label for="inputID" class="col-sm-1 control-label">密码</label>
-              <div class="col-sm-3">
-			<input type="text" value="${customerService.password }" name="customerService.password" required="required"  class="form-control"/></div>
-              <label for="inputID" class="col-sm-1 control-label">邮箱</label>
-              <div class="col-sm-3">
-			<input type="text" value="${customerService.email }" name="customerService.email"  class="form-control"/></div></div>
+            <div class="form-group" style="margin-bottom: 60px; ">
+              <label for="inputID" class="col-sm-2 control-label">用户名</label>
+              <div class="col-sm-10">
+			<input type="text" value="${customerService.username }" name="customerService.username" required onblur="xmlCheck()" id="usernameId" autofocus class="form-control" style="width:250px; margin-bottom:5px;" /></div>
+              <label for="inputID" class="col-sm-2 control-label">密码</label>
+              <div class="col-sm-10">
+			<input type="text" value="${customerService.password }" name="customerService.password" required  class="form-control" style="width:250px; margin-bottom:5px;" /></div>
+              <label for="inputID" class="col-sm-2 control-label">邮箱</label>
+              <div class="col-sm-10">
+			<input type="text" value="${customerService.email }" name="customerService.email"  class="form-control" style="width:250px; margin-bottom:5px;" /></div>
+	</div>
 			
             <div class="form-group" style="margin-bottom: 60px;">
-              <label for="inputID" class="col-sm-1 control-label">姓名</label>
-              <div class="col-sm-3">
-			<input type="text" value="${customerService.name }" name="customerService.name" id="nameId"  class="form-control" /></div>
-              <label for="inputID" class="col-sm-1 control-label">手机</label>
-              <div class="col-sm-3">
-			<input type="text" value="${customerService.phone }" name="customerService.phone"  class="form-control" /></div>
-              <label for="inputID" class="col-sm-1 control-label">淘宝账号</label>
-              <div class="col-sm-3">
-			<input type="text" value="${customerService.tbUsername }" name="customerService.tbUsername"  class="form-control" /></div></div>
+              <label for="inputID" class="col-sm-2 control-label">姓名</label>
+              <div class="col-sm-10">
+			<input type="text" value="${customerService.name }" name="customerService.name" id="nameId"  class="form-control" style="width:250px; margin-bottom:5px;" /></div>
+              <label for="inputID" class="col-sm-2 control-label">手机</label>
+              <div class="col-sm-10">
+			<input type="text" value="${customerService.phone }" name="customerService.phone"  class="form-control" style="width:250px; margin-bottom:5px;" /></div>
+              <label for="inputID" class="col-sm-2 control-label">淘宝账号</label>
+              <div class="col-sm-10">
+			<input type="text" value="${customerService.tbUsername }" name="customerService.tbUsername"  class="form-control" style="width:250px; margin-bottom:5px;" /></div></div>
 			
-			<span style="float: left; color: red;">以下可不填</span><br>
-			<hr>
-            <div class="form-group" style="margin-bottom: 60px;">
-              <label for="inputID" class="col-sm-1 control-label">登陆次数</label>
+			<!-- <span style="float: left; color: red;">以下可不填</span><br>
+			<hr> -->
+			<!-- 将以下代码实施隐藏 -->
+            <div class="form-group" style="margin-bottom: 60px; display:none">
+              <label for="inputID" class="col-sm-1 control-label" >登陆次数</label>
               <div class="col-sm-2">
 			<input type="text" value="${customerService.loginCount }" name="customerService.loginCount"  class="form-control"/></div>
               <label for="inputID" class="col-sm-1 control-label">录入订单</label>

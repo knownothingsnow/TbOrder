@@ -60,24 +60,25 @@ function checkForm() {
 			
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-2 control-label">用户名</label>
-              <div class="col-sm-3">
+              <div class="col-sm-10">
 			<input type="text" value="${processStaff.username }" name="processStaff.username" required="required" placeholder="用户名" 
-				onblur="xmlCheck()" id="usernameId" autofocus="autofocus" class="form-control"/></div>
+				onblur="xmlCheck()" id="usernameId" autofocus="autofocus" class="form-control" style="width:250px; margin-bottom:5px;" /></div>
               <label for="inputID" class="col-sm-2 control-label">密码</label>
-              <div class="col-sm-3">
-			<input type="text" value="${processStaff.password }" name="processStaff.password" required="required" class="form-control"/></div></div>
+              <div class="col-sm-10">
+			<input type="text" value="${processStaff.password }" name="processStaff.password" required="required" class="form-control" style="width:250px; margin-bottom:5px;" /></div></div>
 			
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-2 control-label">姓名</label>
-              <div class="col-sm-3">
-			<input type="text" value="${processStaff.name }" name="processStaff.name" id="nameId" class="form-control" /></div>
+              <div class="col-sm-10">
+			<input type="text" value="${processStaff.name }" name="processStaff.name" id="nameId" class="form-control"  style="width:250px; margin-bottom:5px;" /></div>
               <label for="inputID" class="col-sm-2 control-label">手机</label>
-              <div class="col-sm-3">
-			<input type="text" value="${processStaff.phone }" name="processStaff.phone"  class="form-control" /></div></div>
+              <div class="col-sm-10">
+			<input type="text" value="${processStaff.phone }" name="processStaff.phone"  class="form-control" style="width:250px; margin-bottom:5px;" /></div></div>
 			
-			<span style="float: left; color: red;">以下可不填</span><br>
-			<hr>
-            <div class="form-group" style="margin-bottom: 60px;">
+			<!-- <span style="float: left; color: red;">以下可不填</span><br>
+			<hr> -->
+			<!-- 隐藏以下代码 -->
+            <div class="form-group" style="margin-bottom: 60px; display:none;">
               <label for="inputID" class="col-sm-2 control-label">发货数量</label>
               <div class="col-sm-3">
 			<input type="text" value="${processStaff.publishNumber }" name="processStaff.publishNumber" class="form-control"/></div>
