@@ -12,7 +12,6 @@
     <base href="<%=basePath%>">
     <meta charset="utf-8">
     <title>订单列表</title>
-    <link rel="stylesheet" href="css/index.css"/>
     <script type="text/javascript">
         function xmlPage(n) {
             var nameI= "";
@@ -130,16 +129,16 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="row" id="sss">
+    <div class="row">
         <div class="col-md-12 col-lg-12 page-header">
             <h1 id="header-of-page">订单检索</h1>
         </div>
-    </div><!--row1 end-->
+    </div>
 
 
     <div class="row">
         <div class="col-md-9 col-lg-10">
-            <ul class="list-group" id="ordersListTable"><!-- 七种颜色代表七种订单状态 -->
+            <ul class="list-group" id="ordersListTable">
 
                 <!-- file/${list.customerPicture }${list.designPicture } -->
 
@@ -174,7 +173,6 @@
             </section>
         </div>
         <div class="col-md-3 col-lg-2">
-
             <div class="btn-group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                     订单状态 <span class="caret"></span>

@@ -1,9 +1,19 @@
+/*列表区的样式*/
+/*
+*
+*
+*/
 .list-group li{
     margin-top: 10px;
 }
 
+.btn{
+    border-radius: 4px !important;
+}
+
 .btn-group>.dropdown-toggle {
     margin-bottom: 12px;
+    margin-right: 50px;
 }
 /*自定义,拉开检索区菜单间隔*/
 

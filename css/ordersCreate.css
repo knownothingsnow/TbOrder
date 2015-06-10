@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px){
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px){
+    .col-md-2 {
+        width: 16.66666667%;
+    }
+}
+
+form.form-horizontal{
+    margin-top: 40px;
+}
+
+.pic-submit{
+    /*padding: 0;
+    width: 72px;
+    border: 0;*/
+    display: none;
+}
+
+/*#imgdiv1,#imgdiv2{
+    display: none;
+}*/
+
+#imgdiv1,#imgdiv2{
+    margin: 50px 50px;
+}
+

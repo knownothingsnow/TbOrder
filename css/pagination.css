@@ -1,0 +1,9 @@
+#pageDiv,#pageDiv+nav{
+    margin: 0 auto;
+    width: 900px;
+}
+.pagination{
+    padding-left: 120px;
+}
+
+

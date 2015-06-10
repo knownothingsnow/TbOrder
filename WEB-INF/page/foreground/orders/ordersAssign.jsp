@@ -43,7 +43,6 @@
 						str+= "<p><strong>录入时间:</strong>"+ json.jsonArray[i].createTime+ "</p>";
 						str+= "<p><strong>收货人:</strong>"+ json.jsonArray[i].username+ "</p>";
 						str+= "<p><strong>电话:</strong>"+ json.jsonArray[i].phone+ "</p>";
-						
 						str+= "<div class='btn-group btn-icno'  role='group'>"
 				                + "<button type='button' class='btn btn-default' title='详细信息' onclick=toDetail('"+ json.jsonArray[i].id + "')><i class='icon-list-ul icon-2x'></i></button>"
 				                + "<div></li>";
@@ -62,7 +61,7 @@ function toDetail(o) {
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 col-lg-12 page-header">
-          <h1 id="header-of-page">回收站<small>没有其他查询方式!</small></h1>
+          <h1 id="header-of-page">回收站<small>没有其他查询方式!</small></h1><%--标题需要区别--%>
         </div>
       </div>
       <div class="row">
