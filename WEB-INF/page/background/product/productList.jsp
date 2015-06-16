@@ -26,14 +26,24 @@
 						, id: $("#deleteId").val()},
 					function(json) {
 						$("#productListTable tr:not(:first)").remove();
-						
 						var str= "";
+						
+						/* 手动拼接
 						for(var i=0; i< json.jsonArray.length; i++) {
 							str+= "<tr><td>"+ json.jsonArray[i].name+ "</td>";
 							str+= "<td>"+ json.jsonArray[i].kind+ "</td>";
 							str+= "<td><a href='product/bCreateView?id="+ json.jsonArray[i].id + "' target='_blank' class='btn btn-default'>modify</a>&nbsp;"
 									+ "<a href='javascript:;' onclick=del('"+ json.jsonArray[i].id+ "') class='btn btn-default'>delete</a></td></tr>";
 						}
+						//*/
+						
+						//* 客户端模板 productListTableMustache
+						var ja= json.jsonArray;
+						for(var i=0; i< ja.length; i++) {
+							str+= Mustache.render($("#productListTableMustache").html(), ja[i]);
+						}
+						//*/
+						
 						$("#productListTable").append(str);
 						$("#currentPageId").val(json.currentPage);
 						$("#maxPageId").val(json.maxPage);
@@ -51,7 +61,7 @@
 	<div class="container-fluid">
 		<div class="row">
 	        <div class="col-md-12 col-lg-12 page-header">
-	        <h1 id="header-of-page">商品类别检索<small>
+	        <h1 id="header-of-page">商品类别检索<small>&nbsp;&nbsp;
 			<select name="kind" id="kindId" onchange="xmlPage(0)">
 				<option value="">商品分类</option>
 				<c:forEach items="${assortmentList }" var="list">
@@ -82,8 +92,22 @@
 		</table>
 		<jsp:include page="/WEB-INF/page/background/main/page.jsp"></jsp:include>
 	</section>
+	<!-- hidden -->
 	<section>
 		<input type="hidden" id="deleteId" value="" />
+	</section>
+	<!-- mustache -->
+	<section>
+		<table id="productListTableMustache" style="display: none;">
+		<tr>
+			<td>{{name }}</td>
+			<td>{{kind }}</td>
+			<td>
+			<a href="product/bCreateView?id={{id }}" target="_blank" class="btn btn-default" >modify</a>
+			<a href="javascript:;" onclick="del('{{id}}')" class="btn btn-default" >delete</a>
+			</td>
+		</tr>
+		</table>
 	</section>
 	</div>
 	</div>

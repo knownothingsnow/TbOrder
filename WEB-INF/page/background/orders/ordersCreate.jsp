@@ -14,6 +14,18 @@
 <base href="<%=basePath%>">
 <title>Order</title>
 <meta charset="utf-8" >
+
+<link rel="stylesheet" href="css/ordersCreate.css"/>
+
+<style type="text/css">
+#selectGroupDiv {
+	margin-left: 5px;
+	margin-bottom: 60px;
+}
+#selectGroupDiv select {
+	margin-right: 5px;
+}
+</style>
 <script type="text/javascript">
 function checkForm() {
 	/*
@@ -93,21 +105,24 @@ function checkForm() {
   		}
   	}
 
+  	function viewNow(o) {
+  		$("#"+ o).click();
+  	}
 </script>
 </head>
 <body>
     <div class="container-fluid" id="page-wrapper">
       <div class="row">
-          <div class="col-md-12 page-header">
+          <div class="col-md-12 col-lg-12 page-header">
 			<s:if test="#request.orders==null">
-				<h2>订单创建</h2>
+				<h1 id="header-of-page">订单创建</h1>
 			</s:if>
 			<s:else>
-				<h2>订单修改</h2>
+				<h1 id="header-of-page">订单修改</h1>
 			</s:else>
 		  </div>
-          
-        <div class="col-md-12 form-cent" style="text-align: center;">
+        
+        <div class="col-md-12 form-cent">
 		<form action="orders/bcreate" 
 		onsubmit="return checkForm()" method="post" enctype="multipart/form-data"  class="form-horizontal">
 	
@@ -119,37 +134,39 @@ function checkForm() {
               <div class="col-sm-3">
 			<input type="text" value="${orders.customerWord }" name="orders.customerWord"  class="form-control" /></div></div>
 	
-            <div class="form-group" style="margin-bottom: 60px;">
-			<select id="stateId" name="orders.state"  class="col-sm-2 ">
-				<option value="0" ${orders.state==0? 'selected' : '' }>订单状态</option>
-				<option value="1" ${orders.state==1? 'selected' : '' }>待分发</option>
-				<option value="2" ${orders.state==2? 'selected' : '' }>正在设计</option>
-				<option value="3" ${orders.state==3? 'selected' : '' }>待确认</option>
-				<option value="4" ${orders.state==4? 'selected' : '' }>待加工</option>
-				<option value="5" ${orders.state==5? 'selected' : '' }>正在加工</option>
-				<option value="6" ${orders.state==6? 'selected' : '' }>已发货</option>
-				<option value="7" ${orders.state==7? 'selected' : '' }>交易完成</option>
-				<option value="8" ${orders.state==8? 'selected' : '' }>撤单</option>
-				<option value="-1" ${orders.state==-1? 'selected' : '' }>已删除</option>
-			</select>
-			<select id="priorityId" name="orders.priority" class="col-sm-2">
-				<option value="0">优先级</option>
-				<option value="1" ${orders.priority==1? 'selected' : '' }>普通</option>
-				<option value="2" ${orders.priority==2? 'selected' : '' }>加急</option>
-			</select>
-			
-			<select id="kindId" onchange="toProduct()" class="col-sm-2" >
-				<option value="">商品分类</option>
-				<c:forEach items="${productAssortmentList }" var="productAssortmentList">
-					<option>${productAssortmentList.kind }</option>
-				</c:forEach>
-			</select>
-			<select id="nameId" onchange="toColor()" disabled="disabled" class="col-sm-2">
-				<option value="">商品名称</option>
-			</select>
-			<select id="colorId" onchange="toWrite()" disabled="disabled" class="col-sm-2">
-				<option value="">颜色分类</option>
-			</select></div>
+            <!-- 下拉列表选择 -->
+            <div class="form-group" id="selectGroupDiv">
+				<select id="stateId" name="orders.state"  class="col-md-2 form-control">
+					<option value="" ${orders.state==''? 'selected' : '' }>订单状态</option>
+					<option ${orders.state=='待分发'? 'selected' : '' }>待分发</option>
+					<option ${orders.state=='正在设计'? 'selected' : '' }>正在设计</option>
+					<option ${orders.state=='待确认'? 'selected' : '' }>待确认</option>
+					<option ${orders.state=='待加工'? 'selected' : '' }>待加工</option>
+					<option ${orders.state=='正在加工'? 'selected' : '' }>正在加工</option>
+					<option ${orders.state=='已发货'? 'selected' : '' }>已发货</option>
+					<option ${orders.state=='交易完成'? 'selected' : '' }>交易完成</option>
+					<option ${orders.state=='撤单'? 'selected' : '' }>撤单</option>
+					<option ${orders.state=='已删除'? 'selected' : '' }>已删除</option>
+				</select>
+				<select id="priorityId" name="orders.priority" class="col-md-2 form-control">
+					<option value="">优先级</option>
+					<option ${orders.priority=='普通'? 'selected' : '' }>普通</option>
+					<option ${orders.priority=='加急'? 'selected' : '' }>加急</option>
+				</select>
+				
+				<select id="kindId" onchange="toProduct()" class="col-md-2 form-control">
+					<option value="">商品分类</option>
+					<c:forEach items="${productAssortmentList }" var="productAssortmentList">
+						<option>${productAssortmentList.kind }</option>
+					</c:forEach>
+				</select>
+				<select id="nameId" onchange="toColor()" disabled="disabled" class="col-md-2 form-control">
+					<option value="">商品名称</option>
+				</select>
+				<select id="colorId" onchange="toWrite()" disabled="disabled"  class="col-md-2 form-control">
+					<option value="">颜色分类</option>
+				</select>
+			</div>
 			
             <div class="form-group" style="margin-bottom: 60px;">
             <label for="inputID" class="col-sm-4 control-label"></label>
@@ -162,20 +179,22 @@ function checkForm() {
 			
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-2 control-label">
-              <input name="customerPicture" type="file" id="customerPictureId" onchange="updateCheck(this)" class="form-control"/></label>
+                <button class="btn btn-default" type="button" onclick="viewNow('customerPictureId')">上传定制图片</button>
+                <input name="customerPicture" type="file" id="customerPictureId" onchange="updateCheck(this)" style="display: none;"/></label>
               <div class="col-sm-3">	
 			<div id="imgdiv1"><img id="customerPictureShow" width="160" height="100" alt="图片预览"/></div></div>
 			
               <label for="inputID" class="col-sm-2 control-label">
-              <input name="designPicture" type="file" id="designPictureId" onchange="updateCheck(this)" class="form-control"/></label>
+                 <button class="btn btn-default" type="button" onclick="viewNow('designPictureId')">上传设计图案</button>
+                 <input name="designPicture" type="file" id="designPictureId" onchange="updateCheck(this)" style="display: none;"/></label>
               <div class="col-sm-3">	
 			<div id="imgdiv2"><img id="designPictureShow" width="160" height="100" alt="图片预览"/></div></div></div>
 			
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-2 control-label">定制图片</label>
-              <div class="col-sm-3"><img src="file/${orders.customerPicture }" width="160" height="120" /></div>
+              <div class="col-sm-3"><a href="file/${orders.customerPicture }" target="_blank"><img src="file/${orders.customerPicture }" width="160" height="120" /></a></div>
               <label for="inputID" class="col-sm-2 control-label">设计图案</label>
-			  <div class="col-sm-3"><img src="file/${orders.designPicture }" width="160" height="120" /></div></div>
+			  <div class="col-sm-3"><a href="file/${orders.designPicture }" target="_blank"><img src="file/${orders.designPicture }" width="160" height="120" /></a></div></div>
 			
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-1 control-label">买家淘宝</label>
@@ -199,22 +218,32 @@ function checkForm() {
               <div class="col-sm-3">
 			<input type="text" value="${orders.mark }" name="orders.mark"  class="form-control" /></div></div>
 			
+			<!-- 订单时间统计 -->
+			<s:if test="#request.orders!=null">
             <div class="form-group" style="margin-bottom: 60px;">
-              <label for="inputID" class="col-sm-1 control-label">创建时间</label>
-              <div class="col-sm-3">
-			<label  class="form-control" >${orders.createTime }</label></div>
-              <label for="inputID" class="col-sm-1 control-label">发货时间</label>
-              <div class="col-sm-3">
-			<label  class="form-control" >${orders.publishTime }</label></div>
-              <label for="inputID" class="col-sm-1 control-label">撤单时间</label>
-              <div class="col-sm-3">
-			<label  class="form-control" >${orders.undoTime }</label></div></div>
+	            <label for="inputID" class="col-sm-1 control-label">创建时间</label>
+				<label  class="col-sm-3 control-label" >${orders.createTime }</label>
+<!--               <input type="hidden" name="orders.createTime" value="${orders.createTime }"/> -->
+				
+	            <label for="inputID" class="col-sm-1 control-label">发货时间</label>
+				<label  class="col-sm-3 control-label" >${orders.publishTime }</label>
+<!--               <input type="hidden" name="orders.publishTime" value="${orders.publishTime }"/> -->
+				
+	            <label for="inputID" class="col-sm-1 control-label">撤单时间</label>
+				<label  class="col-sm-3 control-label" >${orders.undoTime }</label>
+<!--               <input type="hidden" name="orders.undoTime" value="${orders.undoTime }"/> -->
+			</div>
+			</s:if>
 			
+			<!-- input -->
 			<input type="hidden" value="${orders.id }" name="orders.id" id="ordersId"/>
 			<input type="submit" value="保存"  class="btn btn-success btn-lg"/>
 			<input type="button" onclick="javascript:window.opener=null;window.open('','_self');window.close();" value="关闭"  class="btn btn-success btn-lg" />
+			<div class="col-md-4"></div><!-- 占位 -->
+			<strong>${message }</strong>
 		</form>
 		</div>
 	</div>
+</div>
 </body>
 </html>

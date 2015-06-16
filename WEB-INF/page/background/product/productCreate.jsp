@@ -62,6 +62,7 @@ function colorUpdate(id, o) {
 				, color: $("#colorText").val()
 				, price: $("#priceText").val()};
 		if(params.color== ""|| params.price==  0) {
+			$("#colorText").focus();
 			return;
 		}
 		$.post("product/bUpdateColor"
@@ -107,6 +108,8 @@ function colorUpdate(id, o) {
 				</c:forEach>
 			</select></div></div>
 			
+			<!-- 创建商品去掉颜色添加 -->
+			<s:if test="#request.product!= null">
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-1 control-label">颜色分类</label>
               <div class="col-sm-11">
@@ -124,6 +127,7 @@ function colorUpdate(id, o) {
 			<input type="number" id="priceText"  placeholder="单价" class="form-control"/></div>
               <div class="col-sm-3">
 			<input type="button" onclick="colorUpdate(null, 0)" value="添加"  class="form-control"/></div></div>
+			</s:if>
 			
 			<input type="hidden" value="${product.id }" name="product.id" id="productId"/>
 			<input type="hidden" value="${product.productAssortment.id }" name="product.productAssortment.id" />

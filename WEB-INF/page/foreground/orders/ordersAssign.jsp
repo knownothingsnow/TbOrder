@@ -17,43 +17,36 @@
 <title></title>
 <meta charset="UTF-8">
 <script type="text/javascript">
-	function xmlPage(n) {
-		var cp= calcCurrentPage(n);
-		$.getJSON("orders/listXml",
-  				{currentPage: cp
-					, step: $("#stepId").val()
-					, id: $("#deleteId").val()
-					, priority: $("#priorityId").val()
-					, kind: $("#kindId").val()
-					, name: nameI
-					, color: $("#colorId").val()
-					, od: $("#orderId").val() },
-				function(json) {
-					$("#ordersListTable").find("li").remove();
-
-					var str= "";
-					for(var i=0; i< json.jsonArray.length; i++) {
-						str+= "<li class='list-group-item list-group-item-info'>";
-						str+= "<h4><strong>淘宝订单编号:</strong>"+ json.jsonArray[i].tbNumber+ "<strong>&nbsp;状态:</strong>"+ json.jsonArray[i].state+ "</h4>";
-						str+= "<p><strong>买家淘宝用户名:</strong>"+ json.jsonArray[i].tbUsername+ "</p>";
-						str+= "<p><strong>优先级:</strong>"+ json.jsonArray[i].priority+ "</p>";
-						str+= "<p><strong>类型:</strong>"+ json.jsonArray[i].kind+ "</p>";
-						str+= "<p><strong>商品名:</strong>"+ json.jsonArray[i].name+ "</p>";
-						str+= "<p><strong>颜色:</strong>"+ json.jsonArray[i].color+ "</p>";
-						str+= "<p><strong>录入时间:</strong>"+ json.jsonArray[i].createTime+ "</p>";
-						str+= "<p><strong>收货人:</strong>"+ json.jsonArray[i].username+ "</p>";
-						str+= "<p><strong>电话:</strong>"+ json.jsonArray[i].phone+ "</p>";
-						str+= "<div class='btn-group btn-icno'  role='group'>"
-				                + "<button type='button' class='btn btn-default' title='详细信息' onclick=toDetail('"+ json.jsonArray[i].id + "')><i class='icon-list-ul icon-2x'></i></button>"
-				                + "<div></li>";
-					}
-					$("#ordersListTable").append(str);
-					$("#currentPageId").val(json.currentPage);
-					$("#maxPageId").val(json.maxPage);
-				});
+$(document).ready(function() {
+	var me= "${message}";
+	if(me== "delete") {
+		$("#headerFont").text("回收站");
+		$("#toDesignId").css("display", "none");
+	} else if(me== "design") {
+		$("#headerFont").text("正在设计");
+	} else if(me== "process") {
+		$("#headerFont").text("正在加工");
 	}
+});
 function toDetail(o) {
 	window.open("orders/createView?id="+ o);
+}
+function toDesign(o) {
+	var me= "${message}";
+	var str= "";
+	if(me== "design") {
+		str= "确定提交图案设计方案?";
+	} else if(me== "process") {
+		str= "确定发货?";
+	}
+	if(confirm(str)) {
+		$.getJSON("orders/toDesign",
+				{id: o}, 
+				function(json) {
+					alert(json.message);
+					window.location.href= location.href;
+				});
+	}
 }
 </script>
 </head>
@@ -61,26 +54,27 @@ function toDetail(o) {
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 col-lg-12 page-header">
-          <h1 id="header-of-page">回收站<small>没有其他查询方式!</small></h1><%--标题需要区别--%>
+          <h1 id="header-of-page"><div id="headerFont">特定订单列表</div></h1>
         </div>
       </div>
       <div class="row">
         <div class="col-md-9 col-lg-10">
           <ul class="list-group">
 			<c:forEach var="list" items="${ordersList }">
-            <li class="list-group-item list-group-item-info">
+            <li class="list-group-item list-group-item-default">
               <h4><strong>淘宝订单编号:</strong>${list.tbNumber }<strong>&nbsp;状态:</strong>${list.state }</h4>
               <p><strong>买家淘宝用户名:</strong>${list.tbUsername }</p>
-              <p><strong>优先级:</strong><c:if test="${list.priority== 1 }">普通</c:if><c:if test="${list.priority== 2 }">加急</c:if> </p>
+              <p><strong>优先级:</strong>${list.priority }</p>
               
               <p><strong>类型:</strong>${list.kind }</p>
               <p><strong>商品名:</strong>${list.name }</p>
               <p><strong>颜色:</strong>${list.color }</p>
               
-              <p><strong>录入时间:</strong><fmt:formatDate value="${list.createTime }" type="date" pattern="yyyy-MM-dd" /></p>
+              <p><strong>录入时间:</strong>${list.createTime }</p>
               <p><strong>收货人:</strong>${list.username }</p>
               <p><strong>电话:</strong>${list.phone }</p>
               <div class="btn-group btn-icno"  role="group">
+              	<button id="toDesignId" type="button" class="btn btn-default" title="已发货" onclick="toDesign('${list.id }')"><i class="icon-plus-sign-alt icon-2x"></i></button>
                 <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')"><i class="icon-list-ul icon-2x"></i></button>
               </div>
             </li>             

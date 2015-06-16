@@ -14,7 +14,7 @@
 <html>
 <head>
 <base href="<%= basePath%>">
-<title>index</title>
+<title>管理员信息</title>
 <meta charset="UTF-8">
 </head>
 <body>

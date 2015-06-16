@@ -7,8 +7,9 @@
 	<include file="resources/base.xml"></include>
 	
 	<package name="index" extends="base" namespace="/">
-		<action name="index">
-			<result>/WEB-INF/page/foreground/main/index.jsp</result>
+		<action name="index" class="com.to.action.AdministratorAction" method="index">
+			<result name="success">/WEB-INF/page/foreground/main/index.jsp</result>
+			<result name="admin">/WEB-INF/page/background/main/index.jsp</result>
 		</action>
 		<action name="backIndex" class="com.to.action.AdministratorAction" method="backAdminCreateView">
 			<result>/WEB-INF/page/background/main/index.jsp</result>

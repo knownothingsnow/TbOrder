@@ -12,7 +12,7 @@
 <html>
 <head>
 <base href="<%=basePath%>">
-<title>CustomerService</title>
+<title>加工部信息更新</title>
 <meta charset="utf-8" >
 <script type="text/javascript">
 function xmlCheck() {
@@ -47,10 +47,10 @@ function checkForm() {
       <div class="row">
           <div class="col-md-12 page-header">
 			<s:if test="#request.processStaff==null">
-				<h1>加工人员创建</h1>
+				<h1 id="header-of-page">加工人员创建</h1>
 			</s:if>
 			<s:else>
-				<h1>加工人员修改</h1>
+				<h1 id="header-of-page">加工人员修改(用户名修改无效)</h1>
 			</s:else>
           </div>
           
@@ -62,10 +62,10 @@ function checkForm() {
               <label for="inputID" class="col-sm-2 control-label">用户名</label>
               <div class="col-sm-10">
 			<input type="text" value="${processStaff.username }" name="processStaff.username" required="required" placeholder="用户名" 
-				onblur="xmlCheck()" id="usernameId" autofocus="autofocus" class="form-control" style="width:250px; margin-bottom:5px;" /></div>
+				onblur="xmlCheck()" id="usernameId"  class="form-control" style="width:250px; margin-bottom:5px;" /></div>
               <label for="inputID" class="col-sm-2 control-label">密码</label>
               <div class="col-sm-10">
-			<input type="text" value="${processStaff.password }" name="processStaff.password" required="required" class="form-control" style="width:250px; margin-bottom:5px;" /></div></div>
+			<input type="text" value="${processStaff.password }" name="processStaff.password" required="required" autofocus class="form-control" style="width:250px; margin-bottom:5px;" /></div></div>
 			
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-2 control-label">姓名</label>
@@ -77,15 +77,18 @@ function checkForm() {
 			
 			<!-- <span style="float: left; color: red;">以下可不填</span><br>
 			<hr> -->
-			<!-- 隐藏以下代码 -->
-            <div class="form-group" style="margin-bottom: 60px; display:none;">
+			<s:if test="#request.processStaff!=null">
+            <div class="form-group" style="margin-bottom: 60px; ">
               <label for="inputID" class="col-sm-2 control-label">发货数量</label>
-              <div class="col-sm-3">
-			<input type="text" value="${processStaff.publishNumber }" name="processStaff.publishNumber" class="form-control"/></div>
-              <label for="inputID" class="col-sm-2 control-label">创建时间</label>
-              <div class="col-sm-3">
-			<input type="text" value="${processStaff.createTime }" name="processStaff.createTime" class="form-control" /></div></div>
+              <label for="inputID" class="col-sm-1 control-label">${processStaff.publishNumber }</label>
+              <input type="hidden" value="${processStaff.publishNumber }" name="processStaff.publishNumber"/>
+              
+              <label for="inputID" class="col-sm-2 control-label">更新时间</label>
+              <label for="inputID" class="col-sm-2 control-label">${processStaff.createTime }</label>
+            </div>
+			</s:if>
 			
+			<!-- input -->
 			<input type="hidden" value="${processStaff.id }" name="processStaff.id" id="processStaffId"/>
 			<input type="submit" value="保存"  class="btn btn-success btn-lg"/>
 			<input type="button" onclick="javascript:window.opener=null;window.open('','_self');window.close();" value="关闭"  class="btn btn-success btn-lg"/>

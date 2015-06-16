@@ -1,1247 +1,234 @@
-127.0.0.1 2015-6-6 21:40:12 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-6 21:40:12 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-6 21:40:12 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-<<<<<<< HEAD
-127.0.0.1 2015-6-6 23:29:53 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-6 23:30:02 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=33&password=33 
-127.0.0.1 2015-6-6 23:30:02 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=33&password=33 
-127.0.0.1 2015-6-7 20:24:22 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=33&password=33 
-127.0.0.1 2015-6-7 20:25:07 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=33&password=33 
-127.0.0.1 2015-6-7 20:25:07 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=33&password=33 
-127.0.0.1 2015-6-7 20:25:27 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:25:31 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:25:47 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:26:31 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:26:34 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:26:36 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:26:38 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:27:48 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:28:05 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:28:26 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:28:32 
-http://localhost:8080/TbOrder/customerService/customerLoginout? 
-127.0.0.1 2015-6-7 20:28:32 
-http://localhost:8080/TbOrder/customerService/customerLoginout? 
-127.0.0.1 2015-6-7 20:28:34 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=33&password=33 
-127.0.0.1 2015-6-7 20:28:34 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=33&password=33 
-127.0.0.1 2015-6-7 20:28:39 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:28:40 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:31:14 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:32:02 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:34:03 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:34:06 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:34:28 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:35:23 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:35:23 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-7 20:35:25 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:35:27 
-http://localhost:8080/TbOrder/customerService/customerLoginout? 
-127.0.0.1 2015-6-7 20:35:27 
-http://localhost:8080/TbOrder/customerService/customerLoginout? 
-127.0.0.1 2015-6-7 20:35:31 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 20:35:31 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 20:35:31 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 20:35:42 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 20:35:46 
-http://localhost:8080/TbOrder/admin/bAdminLoginout? 
-127.0.0.1 2015-6-7 20:35:50 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:35:51 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-7 20:35:52 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-7 20:35:56 
-http://localhost:8080/TbOrder/customerService/customerLoginout? 
-127.0.0.1 2015-6-7 20:35:56 
-http://localhost:8080/TbOrder/customerService/customerLoginout? 
-127.0.0.1 2015-6-7 20:35:57 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:36:00 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:38:26 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:38:29 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:40:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:40:48 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:40:54 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:40:55 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:40:59 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-7 20:41:01 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-7 20:41:02 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:44:35 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:45:41 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:45:43 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 20:45:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 20:50:42 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 21:38:01 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 21:38:02 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-7 21:38:04 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 21:39:58 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-7 21:42:02 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 0:02:03 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 10:20:42 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 10:21:03 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:21:20 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:21:22 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:21:24 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 10:21:26 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:21:38 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:21:42 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 10:22:50 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:23:04 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:23:19 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:23:35 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:23:42 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:23:51 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:24:30 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 10:24:47 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:24:48 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:39:27 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:40:43 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:41:24 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:41:27 
-http://localhost:8080/TbOrder/orders/listXml?currentPage=1&step=12&id=&state=1&priority=0&kind=&name=&color=&od=0 
-127.0.0.1 2015-6-8 10:41:29 
-http://localhost:8080/TbOrder/orders/listXml?currentPage=0&step=12&id=&state=0&priority=0&kind=&name=&color=&od=0 
-127.0.0.1 2015-6-8 10:41:31 
-http://localhost:8080/TbOrder/orders/listXml?currentPage=1&step=12&id=&state=0&priority=1&kind=&name=&color=&od=0 
-127.0.0.1 2015-6-8 10:41:32 
-http://localhost:8080/TbOrder/orders/listXml?currentPage=1&step=12&id=&state=0&priority=0&kind=&name=&color=&od=0 
-127.0.0.1 2015-6-8 10:48:39 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 10:48:42 
-http://localhost:8080/TbOrder/orders/createView?id=2c92841a4d9adfd9014d9ae039930001 
-127.0.0.1 2015-6-8 10:49:02 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:50:05 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:51:29 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:52:59 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 10:56:00 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:03:44 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:09:54 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:15:37 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:17:09 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:25:08 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:34:53 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:34:54 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 11:34:57 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 11:34:58 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:36:38 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 11:36:39 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 11:37:34 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:38:11 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 11:39:01 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 14:47:07 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 14:47:09 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 14:47:10 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 14:47:38 
-http://localhost:8080/TbOrder/orders/listXml?currentPage=1&step=12&id=&state=0&priority=&kind=%E5%8F%B0%E7%81%AF&name=&color=&od=0 
-127.0.0.1 2015-6-8 14:47:38 
-http://localhost:8080/TbOrder/orders/productList?kind=%E5%8F%B0%E7%81%AF 
-127.0.0.1 2015-6-8 14:47:41 
-http://localhost:8080/TbOrder/orders/listXml?currentPage=0&step=12&id=&state=0&priority=&kind=&name=&color=&od=0 
-127.0.0.1 2015-6-8 14:47:41 
-http://localhost:8080/TbOrder/orders/productList?kind= 
-127.0.0.1 2015-6-8 14:50:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 14:52:28 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 14:54:44 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:02:51 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:03:03 
-http://localhost:8080/TbOrder/orders/listXml?currentPage=1&step=12&id=2c92841a4d95c58b014d95c6a2880001&state=0&priority=&kind=&name=&color=&od=0 
-127.0.0.1 2015-6-8 15:06:17 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:07:21 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:08:13 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:08:22 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:10:23 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:11:09 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 15:11:12 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:11:14 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:13:25 
-http://localhost:8080/TbOrder/customerService/updateView? 
-127.0.0.1 2015-6-8 15:14:10 
-http://localhost:8080/TbOrder/customerService/updateView? 
-127.0.0.1 2015-6-8 15:16:09 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:16:13 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 15:16:15 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:16:16 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:16:30 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:16:32 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:16:34 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:16:45 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:16:45 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:27:52 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:27:53 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:27:55 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:28:24 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:29:27 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:29:30 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:29:31 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 15:29:32 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:29:34 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:34:49 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:34:50 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:36:40 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:36:42 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:36:43 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 15:36:44 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:36:45 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 15:36:48 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 15:40:21 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:48:56 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:51:06 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:52:46 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 15:52:48 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:52:51 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 15:52:52 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:53:00 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 15:53:46 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:56:25 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 15:59:38 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:00:11 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:00:42 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:02:00 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 16:02:02 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:02:08 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:03:42 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:04:00 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:04:21 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-8 16:04:23 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:04:25 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:11:11 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:14:01 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:15:55 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:17:22 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:20:11 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:22:29 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:27:09 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:32:36 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:33:16 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:33:18 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:33:19 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:33:20 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 16:33:21 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:33:23 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:33:24 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:33:31 
-http://localhost:8080/TbOrder/orders/createView?id=2c92841a4d9adfd9014d9ae039930001 
-127.0.0.1 2015-6-8 16:33:34 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:33:35 
-http://localhost:8080/TbOrder/orders/createView?id=2c92841a4d95c58b014d95c6a2880001 
-127.0.0.1 2015-6-8 16:33:38 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:34:28 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:34:31 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:34:33 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:34:34 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:34:35 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 16:34:36 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:34:37 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:34:39 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:37:12 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:37:13 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:37:14 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:37:15 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:37:16 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:37:18 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:37:19 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:37:28 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:37:30 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:37:32 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-8 16:37:34 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-8 16:37:35 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-8 16:37:36 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-8 16:37:45 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 15:13:35 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-9 15:13:38 
-http://localhost:8080/TbOrder/orders/list? 
-=======
-127.0.0.1 2015-6-7 9:44:01 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 9:44:06 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 9:44:11 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 9:44:27 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 9:44:29 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 9:45:20 
-http://localhost:8080/TbOrder/processStaff/bList? 
-127.0.0.1 2015-6-7 10:26:22 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 10:26:29 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 10:26:34 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 10:26:39 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 10:26:51 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 10:26:57 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 10:29:06 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 10:29:23 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 10:30:06 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 10:32:41 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 10:34:12 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 10:36:07 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 10:36:20 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:37:03 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:46:36 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:46:48 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:46:49 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:48:48 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:48:59 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:49:56 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:50:08 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:50:25 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:50:36 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:51:26 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:51:37 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:51:40 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:51:43 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:51:52 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:52:11 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:52:22 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:52:25 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:53:30 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:53:42 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:55:12 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:55:23 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:56:17 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:56:58 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:58:34 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:58:46 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 10:59:58 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:00:10 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 11:00:22 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 11:01:41 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 11:01:49 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:01:59 
-http://localhost:8080/TbOrder/customerService/bCreateView?id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 11:02:10 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=88&id=2c92841a4da859ce014da85f65f80001 
-127.0.0.1 2015-6-7 11:02:35 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:04:25 
-http://localhost:8080/TbOrder/processStaff/bCreateView? 
-127.0.0.1 2015-6-7 11:04:33 
-http://localhost:8080/TbOrder/processStaff/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 11:06:53 
-http://localhost:8080/TbOrder/processStaff/bCreateView? 
-127.0.0.1 2015-6-7 11:07:03 
-http://localhost:8080/TbOrder/processStaff/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 11:07:08 
-http://localhost:8080/TbOrder/processStaff/bCreateView? 
-127.0.0.1 2015-6-7 11:07:20 
-http://localhost:8080/TbOrder/processStaff/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 11:09:18 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 11:09:47 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 11:09:48 
-http://localhost:8080/TbOrder/processStaff/bCreateView? 
-127.0.0.1 2015-6-7 11:10:04 
-http://localhost:8080/TbOrder/processStaff/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 11:10:49 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 11:10:56 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 11:11:32 
-http://localhost:8080/TbOrder/processStaff/bList? 
-127.0.0.1 2015-6-7 11:12:44 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:13:35 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:14:08 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:14:58 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:16:04 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:16:33 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:16:54 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:17:16 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 11:17:28 
-http://localhost:8080/TbOrder/processStaff/bList? 
-127.0.0.1 2015-6-7 11:18:07 
-http://localhost:8080/TbOrder/processStaff/bList? 
-127.0.0.1 2015-6-7 12:27:25 
-http://localhost:8080/TbOrder/processStaff/bList? 
-127.0.0.1 2015-6-7 12:51:20 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 12:51:27 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 12:51:32 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 12:51:46 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 12:52:01 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:52:01 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:52:09 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:52:29 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 12:52:35 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:55:34 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 12:55:40 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:56:52 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 12:57:00 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:57:08 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:57:24 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:59:31 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 12:59:32 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 12:59:42 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 13:01:10 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 13:01:17 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 13:01:19 
-http://localhost:8080/TbOrder/customerService/bList? 
-127.0.0.1 2015-6-7 13:01:39 
-http://localhost:8080/TbOrder/processStaff/bList? 
-127.0.0.1 2015-6-7 13:02:27 
-http://localhost:8080/TbOrder/customerService/bCreateView? 
-127.0.0.1 2015-6-7 13:02:34 
-http://localhost:8080/TbOrder/customerService/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 13:02:34 
-http://localhost:8080/TbOrder/processStaff/bCreateView? 
-127.0.0.1 2015-6-7 13:02:53 
-http://localhost:8080/TbOrder/processStaff/bCreateRepeat?username=&id= 
-127.0.0.1 2015-6-7 13:02:54 
-http://localhost:8080/TbOrder/productAssortment/bList? 
-127.0.0.1 2015-6-7 13:03:33 
-http://localhost:8080/TbOrder/product/bList? 
-127.0.0.1 2015-6-7 13:05:01 
-http://localhost:8080/TbOrder/product/bList? 
-127.0.0.1 2015-6-7 13:05:21 
-http://localhost:8080/TbOrder/product/bCreateView? 
-127.0.0.1 2015-6-7 13:07:17 
-http://localhost:8080/TbOrder/product/bUpdateColor?id=&colorId=0&color=黄色&price=45.5 
-127.0.0.1 2015-6-7 13:07:20 
-http://localhost:8080/TbOrder/product/bUpdateColor?id=&colorId=0&color=黄色&price=45.5 
-127.0.0.1 2015-6-7 13:07:21 
-http://localhost:8080/TbOrder/product/bUpdateColor?id=&colorId=0&color=黄色&price=45.5 
-127.0.0.1 2015-6-7 13:07:21 
-http://localhost:8080/TbOrder/product/bUpdateColor?id=&colorId=0&color=黄色&price=45.5 
-127.0.0.1 2015-6-7 13:07:22 
-http://localhost:8080/TbOrder/product/bUpdateColor?id=&colorId=0&color=黄色&price=45.5 
-127.0.0.1 2015-6-7 13:07:22 
-http://localhost:8080/TbOrder/product/bUpdateColor?id=&colorId=0&color=黄色&price=45.5 
-127.0.0.1 2015-6-7 13:07:28 
-http://localhost:8080/TbOrder/product/bCreate?product.productAssortment.id=&product.name=林&kindId=5&product.id= 
-127.0.0.1 2015-6-7 13:08:39 
-http://localhost:8080/TbOrder/product/bCreateView?id=7 
-127.0.0.1 2015-6-7 13:10:33 
-http://localhost:8080/TbOrder/orders/blist? 
-127.0.0.1 2015-6-7 13:11:20 
-http://localhost:8080/TbOrder/orders/bcreateView? 
-127.0.0.1 2015-6-7 21:19:11 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:19:17 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:19:21 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:19:46 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:19:51 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:19:55 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:21:10 
-http://localhost:8080/TbOrder/product/bCreateView? 
-127.0.0.1 2015-6-7 21:21:52 
-http://localhost:8080/TbOrder/productAssortment/bList? 
-127.0.0.1 2015-6-7 21:21:55 
-http://localhost:8080/TbOrder/product/bList? 
-127.0.0.1 2015-6-7 21:21:57 
-http://localhost:8080/TbOrder/productAssortment/bList? 
-127.0.0.1 2015-6-7 21:22:05 
-http://localhost:8080/TbOrder/product/bCreateView? 
-127.0.0.1 2015-6-7 21:22:21 
-http://localhost:8080/TbOrder/admin/bAdminCreateView? 
-127.0.0.1 2015-6-7 21:23:04 
-http://localhost:8080/TbOrder/admin/bAdminCreateView? 
-127.0.0.1 2015-6-7 21:24:12 
-http://localhost:8080/TbOrder/admin/bAdminCreateView? 
-127.0.0.1 2015-6-7 21:24:14 
-http://localhost:8080/TbOrder/admin/bAdminCreateView? 
-127.0.0.1 2015-6-7 21:24:21 
-http://localhost:8080/TbOrder/admin/? 
-127.0.0.1 2015-6-7 21:24:33 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:24:37 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:24:42 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
-127.0.0.1 2015-6-7 21:24:57 
-http://localhost:8080/TbOrder/productAssortment/bList? 
-127.0.0.1 2015-6-7 21:25:12 
-http://localhost:8080/TbOrder/productAssortment/bUpdateKind?id=12 
-127.0.0.1 2015-6-7 21:25:38 
-http://localhost:8080/TbOrder/productAssortment/bUpdateKind?id=10 
-127.0.0.1 2015-6-7 21:26:04 
-http://localhost:8080/TbOrder/product/bList? 
-127.0.0.1 2015-6-7 21:26:25 
-http://localhost:8080/TbOrder/product/bCreateView? 
-127.0.0.1 2015-6-7 21:27:42 
-http://localhost:8080/TbOrder/product/bCreate?product.productAssortment.id=&product.name=小悦&kindId=8&product.id= 
-127.0.0.1 2015-6-7 22:25:20 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=1&password=1 
->>>>>>> origin/master
-127.0.0.1 2015-6-9 15:22:20 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:27:10 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:28:04 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:28:35 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:30:29 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 15:31:34 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 15:32:33 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 15:32:44 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 15:32:47 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 15:37:04 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:37:10 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:37:13 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:38:25 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:51:36 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:54:26 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:55:51 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 15:59:26 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:00:01 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:00:13 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:00:20 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-9 16:00:22 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:00:27 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-9 16:00:31 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:01:07 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:05:05 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 16:05:09 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 16:06:11 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 16:06:13 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 16:06:22 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:06:26 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 16:06:27 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 16:06:28 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 16:06:30 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 16:07:13 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:07:32 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 16:08:13 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:09:59 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:10:12 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:10:14 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:10:16 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 16:10:17 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 16:11:55 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:11:57 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:12:04 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:12:08 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:12:28 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:14:00 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:14:22 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:15:23 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:15:25 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:18:36 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:21:49 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:23:41 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:24:11 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:32:13 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:32:27 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:33:07 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:33:30 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:34:31 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:34:34 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:35:42 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:36:12 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:38:03 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:38:06 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:38:14 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:39:26 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:43:10 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:43:17 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:43:41 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:43:42 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 16:43:43 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 16:43:44 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 16:43:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:43:46 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 16:43:47 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 16:43:47 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 16:43:48 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:45:38 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:49:04 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:49:07 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 16:50:54 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:13:53 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:13:55 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-9 18:14:29 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:16:03 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:16:15 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:16:57 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:53:05 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:53:18 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-9 18:53:20 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:53:36 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:54:37 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:54:55 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:55:41 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:55:50 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:56:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:57:10 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:57:15 
-http://localhost:8080/TbOrder/customerService/updateView? 
-127.0.0.1 2015-6-9 18:57:18 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 18:57:23 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 18:57:24 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 18:57:25 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 18:57:26 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 18:59:47 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:00:40 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:16:04 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:17:54 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 19:17:57 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:17:58 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 19:18:41 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:18:44 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 19:18:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 19:18:46 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:18:47 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 19:18:48 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:19:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 19:23:29 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:25:40 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:26:49 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:27:24 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 19:28:03 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 19:28:04 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:20:08 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:20:10 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-9 21:20:11 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-9 21:20:15 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:21:06 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:22:12 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:25:36 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:28:13 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:30:04 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:41:57 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:43:13 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:45:27 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:55:14 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 21:55:16 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 21:55:22 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 21:55:22 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:55:24 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 21:55:25 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 21:55:30 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 21:55:32 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:55:38 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 21:55:45 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 21:55:46 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 21:57:03 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 21:58:08 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 21:58:09 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:07:58 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:08:34 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:08:57 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 22:08:58 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 22:09:01 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 22:09:02 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 22:09:03 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 22:09:04 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 22:09:08 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 22:09:09 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 22:09:11 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 22:10:08 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 22:10:11 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-9 22:10:12 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
-127.0.0.1 2015-6-9 22:10:12 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:10:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-9 22:15:55 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:17:03 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:17:52 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:21:12 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:21:53 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:22:49 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:24:09 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:25:18 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:28:20 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:30:10 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:33:51 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:34:22 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:34:38 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:37:29 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:37:42 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:40:28 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:40:31 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:50:40 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:53:47 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:54:11 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 22:59:39 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:00:11 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:00:16 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:00:47 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:01:16 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:03:43 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:04:36 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:07:13 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:08:05 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:08:34 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:08:50 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:09:01 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:09:07 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:09:44 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:10:16 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:10:35 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:10:50 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:13:05 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:15:08 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:17:37 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:18:40 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:19:10 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:20:02 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-9 23:21:10 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 18:56:59 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-10 18:57:10 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:15:47 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:15:48 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-10 21:15:50 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:16:30 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:17:17 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:19:07 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:23:46 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-10 21:23:48 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:28:24 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:47:34 
-http://localhost:8080/TbOrder/orders/bcreate?orders.id=&orders.tbUsername=1231312312&orders.money=1231231&orders.tbNumber=12312313121&orders.mark=231323123123&orders.address=123131&orders.username=1231312313&orders.customerWord=131231&orders.phone=12313123 
-127.0.0.1 2015-6-10 21:47:38 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-10 21:47:40 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:47:41 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-10 21:47:45 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-10 21:47:46 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-10 21:47:49 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:48:05 
-http://localhost:8080/TbOrder/orders/bcreate?orders.id=&orders.tbUsername=21312313&orders.money=1231&orders.tbNumber=121&orders.mark=123123&orders.address=123123&orders.username=3123123&orders.customerWord=1312&orders.phone=23123 
-127.0.0.1 2015-6-10 21:48:06 
-http://localhost:8080/TbOrder/customerService/customerLogin?username=22&password=22 
-127.0.0.1 2015-6-10 21:48:08 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-10 21:48:10 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-10 21:48:14 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:49:13 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:50:34 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:51:34 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:52:17 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:52:37 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:54:09 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:55:12 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:55:53 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 21:56:18 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:02:06 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:05:40 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:06:16 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:08:07 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:08:59 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:09:14 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:09:39 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:11:29 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:12:21 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:12:39 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:23:00 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:24:01 
-http://localhost:8080/TbOrder/orders/createView? 
-127.0.0.1 2015-6-10 22:24:05 
-http://localhost:8080/TbOrder/orders/assignOrders? 
-127.0.0.1 2015-6-10 22:24:07 
-http://localhost:8080/TbOrder/orders/list? 
-127.0.0.1 2015-6-10 22:24:09 
-http://localhost:8080/TbOrder/orders/assignOrders?state=-1 
+127.0.0.1 2015-6-16 10:41:41 
+http://localhost:8080/index? 
+127.0.0.1 2015-6-16 10:41:45 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 10:41:46 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 10:41:46 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 10:41:51 
+http://localhost:8080/customerService/bList? 
+127.0.0.1 2015-6-16 10:41:54 
+http://localhost:8080/customerService/bCreateView?id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 10:41:57 
+http://localhost:8080/customerService/bCreate?customerService.name=阿凡达&customerService.loginCount=125&customerService.phone=46868654600&customerService.tbUsername=45646777777&customerService.username=22&customerService.password=22&customerService.orderNumber=9&customerService.designNumber=5&customerService.id=2c92841a4d942891014d942ad0170001&customerService.email=546546 
+127.0.0.1 2015-6-16 10:42:11 
+http://localhost:8080/customerService/bCreateView?id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 10:45:16 
+http://localhost:8080/admin/bAdminLoginout? 
+127.0.0.1 2015-6-16 10:45:19 
+http://localhost:8080/customerService/customerLogin?username=22&password=33 
+127.0.0.1 2015-6-16 10:45:20 
+http://localhost:8080/customerService/customerLogin?username=22&password=33 
+127.0.0.1 2015-6-16 10:45:20 
+http://localhost:8080/customerService/customerLogin?username=22&password=33 
+127.0.0.1 2015-6-16 10:45:50 
+http://localhost:8080/customerService/customerLogin?username=22&password=22 
+127.0.0.1 2015-6-16 10:47:10 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 10:47:10 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 10:47:12 
+http://localhost:8080/customerService/customerLogin?username=33&password=33 
+127.0.0.1 2015-6-16 10:47:12 
+http://localhost:8080/customerService/customerLogin?username=33&password=33 
+127.0.0.1 2015-6-16 10:47:15 
+http://localhost:8080/processStaff/update?processStaff.publishNumber=3&processStaff.id=2c92841a4d944c36014d9452beb10001&processStaff.username=33&processStaff.name=141414&processStaff.password=33&processStaff.phone=45645143 
+127.0.0.1 2015-6-16 10:47:28 
+http://localhost:8080/processStaff/update?processStaff.publishNumber=3&processStaff.id=2c92841a4d944c36014d9452beb10001&processStaff.username=33&processStaff.name=141414&processStaff.password=33&processStaff.phone=45645143 
+127.0.0.1 2015-6-16 10:50:53 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 10:50:53 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 10:50:55 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 10:50:55 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 10:50:55 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 10:50:59 
+http://localhost:8080/customerService/bList? 
+127.0.0.1 2015-6-16 10:51:00 
+http://localhost:8080/processStaff/bList? 
+127.0.0.1 2015-6-16 10:51:03 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:51:14 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:51:22 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:51:31 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:51:37 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:51:51 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:51:52 
+http://localhost:8080/processStaff/bCreateRepeat?username=33&id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:53:30 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:53:39 
+http://localhost:8080/processStaff/bCreateRepeat?username=33&id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:53:50 
+http://localhost:8080/processStaff/bCreate?processStaff.publishNumber=3&processStaff.id=2c92841a4d944c36014d9452beb10001&processStaff.name=141414&processStaff.username=33&processStaff.password=33&processStaff.phone=45645143 
+127.0.0.1 2015-6-16 10:54:08 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:54:24 
+http://localhost:8080/processStaff/bCreateView?id=2c92841a4d944c36014d9452beb10001 
+127.0.0.1 2015-6-16 10:54:41 
+http://localhost:8080/admin/bAdminLoginout? 
+127.0.0.1 2015-6-16 10:54:47 
+http://localhost:8080/customerService/customerLogin?username=33&password=33 
+127.0.0.1 2015-6-16 10:54:47 
+http://localhost:8080/customerService/customerLogin?username=33&password=33 
+127.0.0.1 2015-6-16 10:55:38 
+http://localhost:8080/customerService/customerLogin?username=33&password=33 
+127.0.0.1 2015-6-16 10:55:38 
+http://localhost:8080/customerService/customerLogin?username=33&password=33 
+127.0.0.1 2015-6-16 10:56:42 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 10:56:42 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 10:56:46 
+http://localhost:8080/customerService/customerLogin?username=22&password=22 
+127.0.0.1 2015-6-16 10:57:17 
+http://localhost:8080/orders/assignOrders?state=%E5%B7%B2%E5%88%A0%E9%99%A4 
+127.0.0.1 2015-6-16 10:57:17 
+http://localhost:8080/orders/createView? 
+127.0.0.1 2015-6-16 10:57:17 
+http://localhost:8080/orders/assignOrders? 
+127.0.0.1 2015-6-16 10:57:18 
+http://localhost:8080/orders/list? 
+127.0.0.1 2015-6-16 10:57:20 
+http://localhost:8080/orders/assignOrders? 
+127.0.0.1 2015-6-16 10:57:21 
+http://localhost:8080/customerService/updateView? 
+127.0.0.1 2015-6-16 10:57:36 
+http://localhost:8080/customerService/updateView? 
+127.0.0.1 2015-6-16 10:58:31 
+http://localhost:8080/customerService/updateView? 
+127.0.0.1 2015-6-16 11:00:35 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 11:00:35 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 11:00:37 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:00:37 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:00:37 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:00:40 
+http://localhost:8080/customerService/bList? 
+127.0.0.1 2015-6-16 11:00:41 
+http://localhost:8080/customerService/bCreateView?id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 11:00:52 
+http://localhost:8080/customerService/bCreateRepeat?username=22&id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 11:01:25 
+http://localhost:8080/customerService/bCreateView?id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 11:01:35 
+http://localhost:8080/customerService/bCreateView?id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 11:01:38 
+http://localhost:8080/customerService/bCreateRepeat?username=22&id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 11:01:43 
+http://localhost:8080/customerService/bCreateRepeat?username=22&id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 11:01:45 
+http://localhost:8080/customerService/bCreateRepeat?username=22&id=2c92841a4d942891014d942ad0170001 
+127.0.0.1 2015-6-16 11:02:07 
+http://localhost:8080/customerService/bCreate?customerService.name=阿凡达&customerService.loginCount=127&customerService.phone=46868654600&customerService.tbUsername=45646777777&customerService.username=22&customerService.password=22&customerService.orderNumber=9&customerService.designNumber=5&customerService.id=2c92841a4d942891014d942ad0170001&customerService.email=546546 
+127.0.0.1 2015-6-16 11:04:39 
+http://localhost:8080/productAssortment/bList? 
+127.0.0.1 2015-6-16 11:04:41 
+http://localhost:8080/customerService/customerLogin?username=22&password=22 
+127.0.0.1 2015-6-16 11:04:43 
+http://localhost:8080/orders/assignOrders?state=%E5%B7%B2%E5%88%A0%E9%99%A4 
+127.0.0.1 2015-6-16 11:04:45 
+http://localhost:8080/orders/createView? 
+127.0.0.1 2015-6-16 11:04:46 
+http://localhost:8080/orders/assignOrders? 
+127.0.0.1 2015-6-16 11:04:47 
+http://localhost:8080/orders/createView? 
+127.0.0.1 2015-6-16 11:05:03 
+http://localhost:8080/orders/list? 
+127.0.0.1 2015-6-16 11:05:06 
+http://localhost:8080/orders/createView?id=2c92841a4dd8b32f014dd8b423ef0001 
+127.0.0.1 2015-6-16 11:05:14 
+http://localhost:8080/orders/create?orders.address=11111111111&orders.priority=普通&orders.money=1111.0&orders.customerWord=1111111111&orders.kind=台灯&orders.color=白色普通定制款&orders.tbUsername=1111111&orders.phone=11111111111&orders.id=2c92841a4dd8b32f014dd8b423ef0001&orders.tbNumber=999&orders.username=11111111&orders.name=照片定制创意diy生日礼物送女友男友闺蜜男生女生毕业纪念礼品&orders.state=已发货&orders.mark=111111111 
+127.0.0.1 2015-6-16 11:05:16 
+http://localhost:8080/orders/createView?id=2c92841a4dd8b32f014dd8b423ef0001 
+127.0.0.1 2015-6-16 11:05:19 
+http://localhost:8080/orders/createView?id=2c92841a4ddbb810014ddbb83a3d0001 
+127.0.0.1 2015-6-16 11:05:22 
+http://localhost:8080/orders/createView?id=2c92841a4dd8f251014dd8f34ac90001 
+127.0.0.1 2015-6-16 11:05:36 
+http://localhost:8080/orders/create?orders.address=11111111111&orders.priority=普通&orders.money=1111.0&orders.customerWord=1111111111&orders.kind=台灯&orders.color=白色普通定制款&orders.tbUsername=1111111&orders.phone=11111111111&orders.id=2c92841a4dd8b32f014dd8b423ef0001&orders.tbNumber=999&orders.username=11111111&orders.name=照片定制创意diy生日礼物送女友男友闺蜜男生女生毕业纪念礼品&orders.state=已发货&orders.mark=111111111 
+127.0.0.1 2015-6-16 11:05:37 
+http://localhost:8080/orders/createView?id=2c92841a4dd8b32f014dd8b423ef0001 
+127.0.0.1 2015-6-16 11:06:13 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 11:06:13 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 11:06:15 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:06:15 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:06:15 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:06:18 
+http://localhost:8080/orders/blist? 
+127.0.0.1 2015-6-16 11:06:20 
+http://localhost:8080/orders/bcreateView?id=2c92841a4dd8b32f014dd8b423ef0001 
+127.0.0.1 2015-6-16 11:06:26 
+http://localhost:8080/orders/bcreate?orders.address=11111111111&orders.priority=普通&orders.money=1111.0&orders.customerWord=1111111111&orders.kind=台灯&orders.color=白色普通定制款&orders.tbUsername=1111111&orders.phone=11111111111&orders.id=2c92841a4dd8b32f014dd8b423ef0001&orders.tbNumber=999&orders.username=11111111&orders.name=照片定制创意diy生日礼物送女友男友闺蜜男生女生毕业纪念礼品&orders.state=已发货&orders.mark=111111111 
+127.0.0.1 2015-6-16 11:06:28 
+http://localhost:8080/orders/bcreateView?id=2c92841a4dd8b32f014dd8b423ef0001 
+127.0.0.1 2015-6-16 11:10:39 
+http://localhost:8080/processStaff/bList? 
+127.0.0.1 2015-6-16 11:10:41 
+http://localhost:8080/customerService/customerLogin?username=22&password=22 
+127.0.0.1 2015-6-16 11:10:49 
+http://localhost:8080/orders/list? 
+127.0.0.1 2015-6-16 11:10:57 
+http://localhost:8080/orders/createView?id=2c92841a4dd8b32f014dd8b423ef0001 
+127.0.0.1 2015-6-16 11:11:01 
+http://localhost:8080/orders/create?orders.address=11111111111&orders.priority=普通&orders.money=1111.0&orders.customerWord=1111111111&orders.kind=台灯&orders.color=白色普通定制款&orders.tbUsername=1111111&orders.phone=11111111111&orders.id=2c92841a4dd8b32f014dd8b423ef0001&orders.tbNumber=999&orders.username=11111111&orders.name=照片定制创意diy生日礼物送女友男友闺蜜男生女生毕业纪念礼品&orders.state=待分发&orders.mark=111111111 
+127.0.0.1 2015-6-16 11:11:05 
+http://localhost:8080/orders/list? 
+127.0.0.1 2015-6-16 11:16:23 
+http://localhost:8080/orders/list? 
+127.0.0.1 2015-6-16 11:16:37 
+http://localhost:8080/orders/list? 
+127.0.0.1 2015-6-16 11:16:38 
+http://localhost:8080/customerService/customerLogin?username=22&password=22 
+127.0.0.1 2015-6-16 11:16:40 
+http://localhost:8080/orders/list? 
+127.0.0.1 2015-6-16 11:16:42 
+http://localhost:8080/orders/createView?id=2c92841a4dd8b32f014dd8b423ef0001 
+127.0.0.1 2015-6-16 11:16:47 
+http://localhost:8080/orders/create?orders.address=11111111111&orders.priority=普通&orders.money=1111.0&orders.customerWord=1111111111&orders.kind=台灯&orders.color=白色普通定制款&orders.tbUsername=1111111&orders.phone=11111111111&orders.id=2c92841a4dd8b32f014dd8b423ef0001&orders.tbNumber=999&orders.username=11111111&orders.name=照片定制创意diy生日礼物送女友男友闺蜜男生女生毕业纪念礼品&orders.state=待分发&orders.mark=111111111 
+127.0.0.1 2015-6-16 11:16:53 
+http://localhost:8080/orders/create?orders.address=11111111111&orders.priority=普通&orders.money=1111.0&orders.customerWord=1111111111&orders.kind=台灯&orders.color=白色普通定制款&orders.tbUsername=1111111&orders.phone=11111111111&orders.id=2c92841a4dd8b32f014dd8b423ef0001&orders.tbNumber=999&orders.username=11111111&orders.name=照片定制创意diy生日礼物送女友男友闺蜜男生女生毕业纪念礼品&orders.state=待分发&orders.mark=111111111 
+127.0.0.1 2015-6-16 11:18:42 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 11:18:42 
+http://localhost:8080/customerService/customerLoginout? 
+127.0.0.1 2015-6-16 11:18:45 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:18:45 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:18:45 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:18:47 
+http://localhost:8080/product/bList? 
+127.0.0.1 2015-6-16 11:18:49 
+http://localhost:8080/product/bCreateView?id=5 
+127.0.0.1 2015-6-16 11:18:51 
+http://localhost:8080/product/bCreate?product.productAssortment.id=8&product.name=包邮创意闪字小风扇DIY定制文字情人闺蜜男友LED毕业表白礼物神器&kindId=8&product.id=5 
+127.0.0.1 2015-6-16 11:20:23 
+http://localhost:8080/orders/blist? 
+127.0.0.1 2015-6-16 11:20:31 
+http://localhost:8080/orders/bcreateView?id=2c92841a4ddbb810014ddbb83a3d0001 
+127.0.0.1 2015-6-16 11:20:35 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:20:35 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 
+127.0.0.1 2015-6-16 11:20:35 
+http://localhost:8080/customerService/customerLogin?username=admin&password=admin 

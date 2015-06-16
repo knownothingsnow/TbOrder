@@ -13,7 +13,7 @@
 <html>
 <head>
 <base href="<%=basePath%>">
-<title>CustomerService</title>
+<title>加工部人员信息</title>
 <meta charset="utf-8" >
 <script type="text/javascript">
 function checkForm() {
@@ -35,7 +35,7 @@ function checkForm() {
     <div class="container-fluid" id="page-wrapper">
       <div class="row">          
 	      <div class="col-md-12 page-header">
-			<h2>加工人员信息更新</h2>
+			<h1 id="header-of-page">加工人员信息更新</h1>
 		  </div>
         <div class="col-md-12 form-cent" style="text-align: center;">
 		<form action="processStaff/update"
@@ -58,21 +58,23 @@ function checkForm() {
               <div class="col-sm-3">
 			<input type="text" value="${processStaff.password }" name="processStaff.password" required="required"  class="form-control" /></div></div>
 			
-			<span style="float: left; color: red;">以下可不填</span><br>
-			<hr>
+			<hr><!-- 后台自动生成的数据 -->
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-1 control-label">发货数量</label>
-              <div class="col-sm-3">
-			<input type="text" value="${processStaff.publishNumber }" name="processStaff.publishNumber" class="form-control"  /></div>
+              <label for="inputID" class="col-sm-1 control-label">${processStaff.publishNumber }</label>
+			  <input type="hidden" value="${processStaff.publishNumber }" name="processStaff.publishNumber"/>
+			  
               <label for="inputID" class="col-sm-1 control-label">创建时间</label>
-              <div class="col-sm-3">
-              <input type="text" value="${processStaff.createTime }" name="processStaff.createTime" class="form-control" /></div></div>
+              <label for="inputID" class="col-sm-2 control-label">${processStaff.createTime }</label>
+            </div>
 			
+			<!-- input -->
 			<input type="hidden" value="${processStaff.id }" name="processStaff.id" id="processStaffId"/>
 			<input type="submit" value="保存"  class="btn btn-success btn-lg"/>
 			<input type="button" onclick="javascript:window.opener=null;window.open('','_self');window.close();" value="关闭"  class="btn btn-success btn-lg" />
 		</form>
 		</div>
 	</div>
+</div>
 </body>
 </html>

@@ -13,7 +13,7 @@
 <html>
 <head>
 <base href="<%=basePath%>">
-<title>CustomerService</title>
+<title>客服人员信息</title>
 <meta charset="utf-8" >
 <script type="text/javascript">
 function checkForm() {
@@ -35,7 +35,7 @@ function checkForm() {
     <div class="container-fluid" id="page-wrapper">
       <div class="row">          
 	      <div class="col-md-12 page-header">
-			<h2>客服信息更新</h2>
+			<h1 id="header-of-page">客服信息更新</h1>
 		  </div>
         <div class="col-md-12 form-cent" style="text-align: center;">
 		<form action="customerService/update"
@@ -64,22 +64,25 @@ function checkForm() {
               <div class="col-sm-3">
 			<input type="text" value="${customerService.email }" name="customerService.email"  class="form-control"/></div></div>
 			
-			<span style="float: left; color: red;">以下可不填</span><br>
-			<hr>
-            <div class="form-group" style="margin-bottom: 60px;">
+			<hr/><!-- 后台自动生成的数据 -->
+            <div class="form-group" style="margin-bottom: 60px;">            
               <label for="inputID" class="col-sm-1 control-label">登陆次数</label>
-              <div class="col-sm-2">
-			<input type="text" value="${customerService.loginCount }" name="customerService.loginCount"  class="form-control"/></div>
+              <label for="inputID" class="col-sm-1 control-label">${customerService.loginCount }</label>
+			  <input type="hidden" value="${customerService.loginCount }" name="customerService.loginCount"/>
+			  
               <label for="inputID" class="col-sm-1 control-label">录入订单</label>
-              <div class="col-sm-2">
-			<input type="text" value="${customerService.orderNumber }" name="customerService.orderNumber"  class="form-control"/></div>
+              <label for="inputID" class="col-sm-1 control-label">${customerService.orderNumber }</label>
+			  <input type="hidden" value="${customerService.orderNumber }" name="customerService.orderNumber"/>
+			  
               <label for="inputID" class="col-sm-1 control-label">设计订单</label>
-              <div class="col-sm-2">
-			<input type="text" value="${customerService.designNumber }" name="customerService.designNumber" class="form-control" /></div>
+              <label for="inputID" class="col-sm-1 control-label">${customerService.designNumber }</label>
+			  <input type="hidden" value="${customerService.designNumber }" name="customerService.designNumber"/>
+			  
               <label for="inputID" class="col-sm-1 control-label">创建时间</label>
-              <div class="col-sm-2">
-			<input type="text" value="${customerService.createTime }" name="customerService.createTime" class="form-control" /></div></div>
+              <label for="inputID" class="col-sm-2 control-label">${customerService.createTime }</label>
+			</div>
 			
+			<!-- input -->
 			<input type="hidden" value="${customerService.id }" name="customerService.id" id="customerServiceId"/>
 			<input type="submit" value="保存"  class="btn btn-success btn-lg"/>
 			<input type="button" onclick="javascript:window.opener=null;window.open('','_self');window.close();" value="关闭"  class="btn btn-success btn-lg" />

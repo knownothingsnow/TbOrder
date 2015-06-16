@@ -14,6 +14,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <script type="text/javascript">
   	function xmlPage(n) {
   		var nameI= "";
+  		// 商品名称
   		if($("#nameId").val()!= "") {
   			nameI= $("#nameId :selected").text();
   		}
@@ -32,6 +33,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						$("#ordersListTable tr:not(:first)").remove();
 						
 						var str= "";
+						
+						/* 手动
 						for(var i=0; i< json.jsonArray.length; i++) {
 							str+= "<tr><td>"+ json.jsonArray[i].name+ "</td>";
 							str+= "<td>"+ json.jsonArray[i].tbNumber+ "</td>";
@@ -48,6 +51,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							str+= "<td><a href='orders/bcreateView?id="+ json.jsonArray[i].id + "' target='_blank' class='btn btn-default' >modify</a>&nbsp;"
 									+ "<a href='javascript:;' onclick=del('"+ json.jsonArray[i].id+ "') class='btn btn-default'>delete</a></td></tr>";
 						}
+						//*/ 
+						
+						//* mustache 
+						var ja= json.jsonArray;
+						for(var i=0; i< ja.length; i++) {
+							str+= Mustache.render($("#ordersListTableMustache").html(), ja[i]);
+						}
+						//*/
+						
 						$("#ordersListTable").append(str);
 						$("#currentPageId").val(json.currentPage);
 						$("#maxPageId").val(json.maxPage);
@@ -113,24 +125,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div class="container-fluid">
 		<div class="row">
         <div class="col-md-12 col-lg-12 page-header">
-        <h1 id="header-of-page">订单检索<small>
+        <h1 id="header-of-page">订单检索<small>&nbsp;&nbsp;
+        <!-- class="form-control" -->
 		<select id="stateId" name="state" onchange="xmlPage(0)">
-			<option value="0">订单状态</option>
-			<option value="1">待分发</option>
-			<option value="2">正在设计</option>
-			<option value="3">待确认</option>
-			<option value="4">待加工</option>
-			<option value="5">正在加工</option>
-			<option value="6">已发货</option>
-			<option value="7">交易完成</option>
-			<option value="8">撤单</option>
-			<option value="-1">已删除</option>
+			<option value="">订单状态</option>
+			<option value="待分发">待分发</option>
+			<option value="正在设计">正在设计</option>
+			<option value="待确认">待确认</option>
+			<option value="待加工">待加工</option>
+			<option value="正在加工">正在加工</option>
+			<option value="已发货">已发货</option>
+			<option value="交易完成">交易完成</option>
+			<option value="撤单">撤单</option>
+			<option value="已删除">已删除</option>
 		</select>
 		
 		<select id="priorityId" name="priority" onchange="xmlPage(0)">
-			<option value="0">优先级</option>
-			<option value="1">普通</option>
-			<option value="2">加急</option>
+			<option value="">优先级</option>
+			<option value="普通">普通</option>
+			<option value="加急">加急</option>
 		</select>
 		
 		<select id="kindId" name="kind" onchange="toProduct()" >
@@ -157,33 +170,33 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	<section>
 		<table class="table table-hover table-striped" id="ordersListTable">
 			<tr>
-				<th>商品名称</th>
+<!-- 				<th>商品名称</th> -->
 				<th>订单号</th>
-				<th>淘宝账号</th>
+<!-- 				<th>淘宝账号</th> -->
 				<th>优先级</th>
 				<th>状态</th>
+				<th>类型</th>
 				<th>颜色</th>
 				<th>customerPicture</th>
 				<th>designPicture</th>
-				<th>类型</th>
-				<th>买家手机</th>
-				<th>姓名</th>
+<!-- 				<th>买家手机</th> -->
+<!-- 				<th>姓名</th> -->
 				<th>录入时间</th>
 				<th>Operation</th>
 			</tr>
 			<c:forEach var="list" items="${ordersList }">
 				<tr>
-					<td>${list.name }</td>
+<!-- 					<td>${list.name }</td> -->
 					<td>${list.tbNumber }</td>
-					<td>${list.tbUsername }</td>
-					<td><c:if test="${list.priority== 1 }">普通</c:if><c:if test="${list.priority== 2 }">加急</c:if></td>
+<!-- 					<td>${list.tbUsername }</td> -->
+					<td>${list.priority }</td>
 					<td>${list.state }</td>
+					<td>${list.kind }</td>
 					<td>${list.color }</td>
 					<td><img src="file/${list.customerPicture }" width="120" height="80" /></td>
 					<td><img src="file/${list.designPicture }" width="120" height="80" /></td>
-					<td>${list.kind }</td>
-					<td>${list.phone }</td>
-					<td>${list.username }</td>
+<!-- 					<td>${list.phone }</td> -->
+<!-- 					<td>${list.username }</td> -->
 					<td><fmt:formatDate value="${list.createTime }" type="date" pattern="yyyy-MM-dd" /></td>
 					<td>
 					<a href="orders/bcreateView?id=${list.id }" target="_blank" class="btn btn-default" >modify</a>
@@ -196,6 +209,29 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</section>
 	<section>
 		<input type="hidden" id="deleteId" value="" />
+	</section>
+	<!-- mustache -->
+	<section>
+		<table id="ordersListTableMustache" style="display: none;">
+		<tr>
+<!-- 			<td>{{name }}</td> -->
+			<td>{{tbNumber }}</td>
+<!-- 			<td>{{tbUsername }}</td> -->
+			<td>{{priority }}</td>
+			<td>{{state }}</td>
+			<td>{{color }}</td>
+			<td><img src="file/{{customerPicture }}" width="120" height="80" /></td>
+			<td><img src="file/{{designPicture }}" width="120" height="80" /></td>
+			<td>{{kind }}</td>
+<!-- 			<td>{{phone }}</td> -->
+<!-- 			<td>{{username }}</td> -->
+			<td>{{createTime }}</td>
+			<td>
+			<a href="orders/bcreateView?id={{id }}" target="_blank" class="btn btn-default" >modify</a>
+			<a href="javascript:;" onclick="del('{{id}}')" class="btn btn-default" >delete</a>
+			</td>
+		</tr>
+		</table>
 	</section>
 	</div>
   </body>
