@@ -29,7 +29,15 @@ $(document).ready(function() {
 	}
 });
 function toDetail(o) {
-	window.open("orders/createView?id="+ o);
+	var state= "state=";
+	var me= "${message}";	
+	if(me== "design") {
+		state+= "待确认";
+	} else if(me== "process") {
+		state+= "已发货";
+	}
+	
+	window.open("orders/createView?id="+ o+ "&"+ state);
 }
 function toDesign(o) {
 	var me= "${message}";
@@ -54,7 +62,7 @@ function toDesign(o) {
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 col-lg-12 page-header">
-          <h1 id="header-of-page"><div id="headerFont">特定订单列表</div></h1>
+          <h1 id="header-of-page">特定订单列表</h1>
         </div>
       </div>
       <div class="row">
@@ -74,8 +82,10 @@ function toDesign(o) {
               <p><strong>收货人:</strong>${list.username }</p>
               <p><strong>电话:</strong>${list.phone }</p>
               <div class="btn-group btn-icno"  role="group">
-              	<button id="toDesignId" type="button" class="btn btn-default" title="已发货" onclick="toDesign('${list.id }')"><i class="icon-plus-sign-alt icon-2x"></i></button>
-                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')"><i class="icon-list-ul icon-2x"></i></button>
+              	<c:if test="${not empty sessionScope.process }">
+              		<button id="toDesignId" type="button" class="btn btn-default" title="已发货" onclick="toDesign('${list.id }')"><i class="icon-plus-sign-alt icon-2x"></i></button>
+              	</c:if>
+                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')"><i class="icon-cog icon-2x"></i></button>
               </div>
             </li>             
             </c:forEach>

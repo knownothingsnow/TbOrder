@@ -147,8 +147,10 @@ function checkForm() {
 <!--                 </ul> -->
 <!--             </div> -->
             
-            <!-- 下拉列表选择 -->
+            <!-- 下拉列表选择 -->            
             <div class="form-group" id="selectGroupDiv">
+            <!-- 修改时显示 -->
+            <s:if test="#request.id!= null">
 			<select id="stateId" name="orders.state" class="col-md-2 form-control">
 				<option value="" ${orders.state==''? 'selected' : '' }>订单状态</option>
 				<option ${orders.state=='待分发'? 'selected' : '' }>待分发</option>
@@ -160,7 +162,11 @@ function checkForm() {
 				<option ${orders.state=='交易完成'? 'selected' : '' }>交易完成</option>
 				<option ${orders.state=='撤单'? 'selected' : '' }>撤单</option>
 				<option ${orders.state=='已删除'? 'selected' : '' }>已删除</option>
-			</select>
+			</select></s:if>
+			<s:if test="#request.state!= null">
+				<input type="hidden" name="orders.state" value="${state }"/>
+			</s:if>
+			
 			<select id="priorityId" name="orders.priority" class="col-md-2 form-control">
 				<option value="">优先级</option>
 				<option ${orders.priority=='普通'? 'selected' : '' }>普通</option>
@@ -210,6 +216,12 @@ function checkForm() {
 <!--               <input type="hidden" name="orders.createTime" value="${orders.createTime }"/> -->
 			</div>
 			</s:if>
+			
+			<s:if test="#request.orders==null">
+				<input type="hidden" name="orders.kind"  id="kindId1"/>
+				<input type="hidden" name="orders.name"  id="nameId1"/>
+				<input type="hidden" name="orders.color"  id="colorId1"/>
+			</s:if>
 			<!-- end 修改订单 -->
 			
 			<!-- 订单其他主要信息 autofocus -->
@@ -254,6 +266,8 @@ function checkForm() {
             </div>
 
 			<!-- 图片 -->
+            <!-- 修改时显示 -->
+            <s:if test="#request.orders!= null">
             <div class="form-group">
                 <label for="inputID" class=" control-label">定制图片</label>
                 <a href="file/${orders.customerPicture }" target="_blank">
@@ -263,6 +277,7 @@ function checkForm() {
                 <a href="file/${orders.designPicture }" target="_blank">
                 <img src="file/${orders.designPicture }" width="160" height="120" /></a>
             </div>
+            </s:if>
             
             <div id="imgdiv1">
                 <img id="customerPictureShow" width="160" height="100" alt="图片预览"/>

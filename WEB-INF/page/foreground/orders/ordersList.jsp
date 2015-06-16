@@ -153,7 +153,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				function(json) {
   					alert(json.message);
   					if(json.message!= "操作失败,请检查订单状态") {
-  						window.location.href= "orders/list";
+  						window.location.href= "orders/assignOrders";
   					}
   				});
   	}
@@ -202,7 +202,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
               <p><strong>电话:</strong>${list.phone }</p>
               <div class="btn-group btn-icno"  role="group">
                 <button type="button" class="btn btn-default" title="设计订单" onclick="toDesign('${list.id}')"><i class="icon-plus-sign-alt icon-2x"></i></button>
-                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')"><i class="icon-list-ul icon-2x"></i></button>
+                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')"><i class="icon-cog icon-2x"></i></button>
                 <button type="button" class="btn btn-default" title="撤销订单" onclick="del('${list.id}')"><i class="icon-share-alt icon-2x"></i></button>
               </div>
             </li>
@@ -242,7 +242,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
               <p><strong>电话:</strong>{{phone }}</p>
               <div class="btn-group btn-icno"  role="group">
                 <button type="button" class="btn btn-default" title="设计订单" onclick="toDesign('{{id}}')"><i class="icon-plus-sign-alt icon-2x"></i></button>
-                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('{{id }}')"><i class="icon-list-ul icon-2x"></i></button>
+                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('{{id }}')"><i class="icon-cog icon-2x"></i></button>
                 <button type="button" class="btn btn-default" title="撤销订单" onclick="del('{{id}}')"><i class="icon-share-alt icon-2x"></i></button>
               </div>
             </li>
