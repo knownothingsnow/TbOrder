@@ -14,7 +14,7 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url"
-			value="jdbc:mysql://localhost/TbOrder?useUnicode=true&amp;characterEncoding=utf-8">
+			value="jdbc:mysql://172.18.4.154/TbOrder?useUnicode=true&amp;characterEncoding=utf-8">
 		</property>
 		<property name="username" value="root"></property>
 		<property name="password" value="xiaohong"></property>

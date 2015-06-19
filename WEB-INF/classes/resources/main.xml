@@ -108,4 +108,16 @@
 		</action>
 	</package>
 	
+	<!-- downloadPicture -->
+	<package name="download" extends="base" namespace="/download">
+		<action name="picture" class="com.to.utility.FileDownload">
+			<result name="success" type="stream">
+				<param name="contentType">text/plain</param>
+				<param name="contentDisposition">attachment; downloadFileName="${downloadFileName}"</param>
+				<param name="inputName">downloadPicture</param>
+				<param name="bufferSize">10240</param>
+			</result>
+		</action>
+	</package>
+	
 </struts>

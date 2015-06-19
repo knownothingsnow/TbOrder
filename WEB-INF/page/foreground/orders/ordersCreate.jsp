@@ -270,11 +270,11 @@ function checkForm() {
             <s:if test="#request.orders!= null">
             <div class="form-group">
                 <label for="inputID" class=" control-label">定制图片</label>
-                <a href="file/${orders.customerPicture }" target="_blank">
+                <a href="download/picture?downloadFileName=${orders.customerPicture }">
                 <img src="file/${orders.customerPicture }" width="160" height="120" /></a>
                 
                 <label for="inputID" class=" control-label">设计图案</label>
-                <a href="file/${orders.designPicture }" target="_blank">
+                <a href="download/picture?downloadFileName=${orders.designPicture }" target="_blank">
                 <img src="file/${orders.designPicture }" width="160" height="120" /></a>
             </div>
             </s:if>

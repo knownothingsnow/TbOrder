@@ -51,7 +51,7 @@ window.onload= function() {
 };
 // onmouseover 触发点击事件
 function xhClick(o) {
-	o.click();
+	//o.click();
 }
 </script>
 

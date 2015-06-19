@@ -20,12 +20,12 @@
 $(document).ready(function() {
 	var me= "${message}";
 	if(me== "delete") {
-		$("#headerFont").text("回收站");
+		$("#header-of-page").text("回收站");
 		$("#toDesignId").css("display", "none");
 	} else if(me== "design") {
-		$("#headerFont").text("正在设计");
+		$("#header-of-page").text("正在设计");
 	} else if(me== "process") {
-		$("#headerFont").text("正在加工");
+		$("#header-of-page").text("正在加工");
 	}
 });
 function toDetail(o) {
