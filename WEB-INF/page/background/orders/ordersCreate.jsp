@@ -26,89 +26,6 @@
 	margin-right: 5px;
 }
 </style>
-<script type="text/javascript">
-function checkForm() {
-	/*
-	if(ue.getContentTxt()=="") {
-		alert("请输入内容");
-		return false;
-	}
-	if(ordersTypeId.selectedIndex== 0) {
-		alert("please selete the ordersType!!");
-		return false;
-	}*/
-	return true;
-}
-  	function toProduct() {
-  		if($("#kindId").val()== "") {
-			$("#nameId option:not(:first)").remove();
-			$("#nameId").attr("disabled", true);
-  		}
-  		$("#kindId1").val($("#kindId").val());
-  		$("#nameId1").val("");
-  		$("#colorId1").val("");
-  		$("#colorId option:not(:first)").remove();
-		$("#colorId").attr("disabled", true);  	
-  		
-  		$.getJSON("orders/bproductList", 
-  				{ kind: $("#kindId").val() }, 
-  				function(json) {
-  					$("#nameId").attr("disabled", false);
-  					$("#nameId option:not(:first)").remove();
-  					
-  					var str= "";
-  					for(var i=0; i<json.jsonArray.length; i++) {
-  						str+= "<option value='"+ json.jsonArray[i].id+ "'>"+ json.jsonArray[i].name+ "</option>";
-  					}
-  					$("#nameId").append(str);
-  				});
-  		
-  	}
-  	function toColor() {
-  		if($("#nameId").val()== "") {
-	  		$("#colorId option:not(:first)").remove();
-  			$("#colorId").attr("disabled", true);
-  		}  		
-
-  		$("#nameId1").val($("#nameId :selected").text());
-  		$("#colorId1").val("");
-  		$.getJSON("orders/bcolorAssortmentList", 
-  				{ productId: $("#nameId :selected").val() },
-				function(json) {
-  		  			$("#colorId").attr("disabled", false);
-  		  			$("#colorId option:not(:first)").remove();
-  		  			
-					var str= "";
-					for(var i=0; i< json.jsonArray.length; i++) {
-						str+= "<option>"+ json.jsonArray[i].color+ "</option>";
-					}
-					$("#colorId").append(str);
-				});
-  	}
-  	function toWrite() {
-  		$("#colorId1").val($("#colorId").val());
-  	}
-  	
-  	function updateCheck(o) {
-  		var i= o.value;
-  		
-  		if(i != '' && ! (i.indexOf('.jpg') != -1
-  		|| i.indexOf('.JPG') != -1
-  		|| i.indexOf('.png') != -1
-  		|| i.indexOf('.PNG') != -1
-  		|| i.indexOf('.jpeg') != -1
-  		|| i.indexOf('.JPEG') != -1
-  		|| i.indexOf('.bmp') != -1
-  		|| i.indexOf('.BMP') != -1 )) {
-  			alert('文件格式错误!');
-  			$(o).val("");
-  		}
-  	}
-
-  	function viewNow(o) {
-  		$("#"+ o).click();
-  	}
-</script>
 </head>
 <body>
     <div class="container-fluid" id="page-wrapper">
@@ -177,6 +94,7 @@ function checkForm() {
             <div class="col-sm-2">
 			<input type="text" value="${orders.color }" name="orders.color"  id="colorId1"  required="required" class="form-control" placeholder="颜色分类"/></div></div>
 			
+			<!-- 上传图片 begin -->
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-2 control-label">
                 <button class="btn btn-default" type="button" onclick="viewNow('customerPictureId')">上传定制图片</button>
@@ -195,6 +113,8 @@ function checkForm() {
               <div class="col-sm-3"><a href="file/${orders.customerPicture }" target="_blank"><img src="file/${orders.customerPicture }" width="160" height="120" /></a></div>
               <label for="inputID" class="col-sm-2 control-label">设计图案</label>
 			  <div class="col-sm-3"><a href="file/${orders.designPicture }" target="_blank"><img src="file/${orders.designPicture }" width="160" height="120" /></a></div></div>
+			
+			<!-- 上传图片 end -->
 			
             <div class="form-group" style="margin-bottom: 60px;">
               <label for="inputID" class="col-sm-1 control-label">买家淘宝</label>
@@ -245,5 +165,6 @@ function checkForm() {
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="js/background/orders-ordersCreate.js"></script>
 </body>
 </html>

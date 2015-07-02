@@ -37,16 +37,7 @@
 <!-- xiaohong -->
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/uploadPreview.min.js"></script>
 <script type="text/javascript" src="js/mustache.js"></script>
-
-<script type="text/javascript">
-// 图片预览
-window.onload= function() {
-	new uploadPreview({ UpBtn: "customerPictureId", DivShow: "imgdiv1", ImgShow: "customerPictureShow" });
-	new uploadPreview({ UpBtn: "designPictureId", DivShow: "imgdiv2", ImgShow: "designPictureShow" });
-};
-</script>
 
 </head>
 <body>
@@ -68,10 +59,16 @@ window.onload= function() {
 	  <div class="side-nav">
 	    <ul>
 	      <li><a href="orders/list">浏览订单</a></li>
-	      <li><a href="orders/assignOrders">设计订单</a></li>
+	      
+	      <li><a href="orders/assignOrders">	      	
+		      <c:if test="${empty sessionScope.process }">设计订单</c:if>
+		      <c:if test="${not empty sessionScope.process }">制作订单</c:if>
+	      </a></li>
+	      	
 	      <c:if test="${empty sessionScope.process }">
-	      <li><a href="orders/createView">录入订单</a></li>
-	      <li><a href="orders/assignOrders?state=已删除">回收站</a></li></c:if>
+		      <li><a href="orders/createView">录入订单</a></li>
+		      <li><a href="orders/assignOrders?state=已删除">回收站</a></li>
+	      </c:if>
 	    </ul>
 	  </div><!--side-nav end-->
 	  <div class="content">

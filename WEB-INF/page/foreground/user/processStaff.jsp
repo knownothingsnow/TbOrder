@@ -16,19 +16,6 @@
 <title>加工部人员信息</title>
 <meta charset="utf-8" >
 <script type="text/javascript">
-function checkForm() {
-	/*
-	if(ue.getContentTxt()=="") {
-		alert("请输入内容");
-		return false;
-	}
-	if(processStaffTypeId.selectedIndex== 0) {
-		alert("please selete the processStaffType!!");
-		return false;
-	}
-	*/
-	return true;
-}
 </script>
 </head>
 <body>

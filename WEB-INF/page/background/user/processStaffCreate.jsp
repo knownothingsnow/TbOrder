@@ -14,33 +14,6 @@
 <base href="<%=basePath%>">
 <title>加工部信息更新</title>
 <meta charset="utf-8" >
-<script type="text/javascript">
-function xmlCheck() {
-	$.post("processStaff/bCreateRepeat"
-			, {username: $("#usernameId").val()
-				, id: $("#processStaffId").val()}
-			, function(data) {
-				if(data.length> 0) {
-					$("#usernameId").focus();
-					alert(data.message);
-				}
-			});
-}
-
-function checkForm() {
-	/*
-	if(ue.getContentTxt()=="") {
-		alert("请输入内容");
-		return false;
-	}
-	if(processStaffTypeId.selectedIndex== 0) {
-		alert("please selete the processStaffType!!");
-		return false;
-	}
-	*/
-	return true;
-}
-</script>
 </head>
 <body>
     <div class="container-fluid" id="page-wrapper">
@@ -96,5 +69,6 @@ function checkForm() {
 		</div>
 	</div>
   </div>
+<script type="text/javascript" src="js/background/user-processStaffCreate.js"></script>
 </body>
 </html>

@@ -63,6 +63,23 @@ li h4 a{
     background-color: #F2E2A0;
 }/*增加两种列表项颜色状态*/
 
+/*增加颜色*/
+.list-group-item-state1 {
+	background-color: #ADBCD9;
+}
+.list-group-item-state2 {
+	background-color: #ADBC89;
+}
+.list-group-item-state3 {
+	background-color: #ADBC65;
+}
+.list-group-item-state4 {
+	background-color: #ADBC41;
+}
+.list-group-item-state5 {
+	background-color: #ADBC12;
+}
+
 div.alert>p{
     display: inline;
     margin-right: 20px;

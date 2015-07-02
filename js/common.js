@@ -1,3 +1,4 @@
+
 function calcCurrentPage(n) {
 	var cp= parseInt($("#currentPageId").val());
 	var mp= parseInt($("#maxPageId").val());
@@ -18,4 +19,10 @@ function calcCurrentPage(n) {
 		cp= mp;
 	}
 	return cp;
+}
+
+function jumpPage(n) {
+	$("#jumpPageId").val(n);
+	
+	xmlPage(3);
 }

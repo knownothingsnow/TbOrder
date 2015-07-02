@@ -4,5 +4,8 @@
 4.interceptor.java-参数xh为传送门 
 5.tomcat server.xml URIEncoding="utf-8"
 
-
+其他：
 *.backListXML、backList、backCreateView、backCreate
+
+// 缓存目录  c:\Tomcat\work\Catalina\localhost\TbOrder\
+// 存放目录  rootPath= C:\Tomcat\webapps\TbOrder\file\

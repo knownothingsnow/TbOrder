@@ -24,91 +24,19 @@
 #selectGroupDiv select {
 	margin-right: 5px;
 }
-</style>
-
-<script type="text/javascript">
-function checkForm() {
-	/*
-	if(ue.getContentTxt()=="") {
-		alert("请输入内容");
-		return false;
-	}
-	if(ordersTypeId.selectedIndex== 0) {
-		alert("please selete the ordersType!!");
-		return false;
-	}*/
-	return true;
+img:hover {
+	cursor: pointer;
 }
-  	function toProduct() {
-  		if($("#kindId").val()== "") {
-			$("#nameId option:not(:first)").remove();
-			$("#nameId").attr("disabled", true);
-  		}
-  		$("#kindId1").val($("#kindId").val());
-  		$("#nameId1").val("");
-  		$("#colorId1").val("");
-  		$("#colorId option:not(:first)").remove();
-		$("#colorId").attr("disabled", true);  	
-  		
-  		$.getJSON("orders/productList", 
-  				{ kind: $("#kindId").val() }, 
-  				function(json) {
-  					$("#nameId").attr("disabled", false);
-  					$("#nameId option:not(:first)").remove();
-  					
-  					var str= "";
-  					for(var i=0; i<json.jsonArray.length; i++) {
-  						str+= "<option value='"+ json.jsonArray[i].id+ "'>"+ json.jsonArray[i].name+ "</option>";
-  					}
-  					$("#nameId").append(str);
-  				});
-  		
-  	}
-  	function toColor() {
-  		if($("#nameId").val()== "") {
-	  		$("#colorId option:not(:first)").remove();
-  			$("#colorId").attr("disabled", true);
-  		}  		
-
-  		$("#nameId1").val($("#nameId :selected").text());
-  		$("#colorId1").val("");
-  		$.getJSON("orders/colorAssortmentList", 
-  				{ productId: $("#nameId :selected").val() },
-				function(json) {
-  		  			$("#colorId").attr("disabled", false);
-  		  			$("#colorId option:not(:first)").remove();
-  		  			
-					var str= "";
-					for(var i=0; i< json.jsonArray.length; i++) {
-						str+= "<option>"+ json.jsonArray[i].color+ "</option>";
-					}
-					$("#colorId").append(str);
-				});
-  	}
-  	function toWrite() {
-  		$("#colorId1").val($("#colorId").val());
-  	}
-  	
-  	function updateCheck(o) {
-  		var i= o.value;
-  		
-  		if(i != '' && ! (i.indexOf('.jpg') != -1
-  		|| i.indexOf('.JPG') != -1
-  		|| i.indexOf('.png') != -1
-  		|| i.indexOf('.PNG') != -1
-  		|| i.indexOf('.jpeg') != -1
-  		|| i.indexOf('.JPEG') != -1
-  		|| i.indexOf('.bmp') != -1
-  		|| i.indexOf('.BMP') != -1 )) {
-  			alert('文件格式错误!');
-  			$(o).val("");
-  		}
-  	}
-
-  	function viewNow(o) {
-  		$("#"+ o).click();
-  	}
-</script>
+img {
+	background-color: grey;
+	color: wheat;
+	width: 160px;
+	height: 100px;
+}
+.hover {
+	
+}
+</style>
 </head>
 <body>
     <div class="container-fluid" id="page-wrapper">
@@ -189,18 +117,25 @@ function checkForm() {
 			
 			<!-- begin 修改订单 -->
 			<s:if test="#request.orders!=null">
-			<!-- 商品具体信息 -->
-            <div class="form-group">
-	            <div class="col-sm-3">
+			<!-- 商品具体信息 -->			
+			<div class="form-group">
+                <label for="inputID" class="col-md-2 control-label">商品分类</label>
 				<input type="text" value="${orders.kind }" name="orders.kind"  id="kindId1"  
-						required class="form-control" placeholder="商品分类"/></div>
-	            <div class="col-sm-3">
+						required class="form-control col-md-6" placeholder="商品分类"/>
+			</div>
+
+			<div class="form-group">
+                <label for="inputID" class="col-md-2 control-label">商品名称</label>
 				<input type="text" value="${orders.name }" name="orders.name"  id="nameId1" 
-						required class="form-control" placeholder="商品名称"/></div>
-	            <div class="col-sm-4">
+						required class="form-control col-md-6" placeholder="商品名称"/>
+			</div>
+
+			<div class="form-group">
+                <label for="inputID" class="col-md-2 control-label">颜色分类</label>
 				<input type="text" value="${orders.color }" name="orders.color"  id="colorId1"  
-					required class="form-control" placeholder="颜色分类"/></div>
-			</div>			
+					required class="form-control col-md-6" placeholder="颜色分类"/>
+			</div>
+
 			<!-- 订单时间统计 -->
             <div class="form-group">
               <label for="inputID" class="col-md-2 control-label">创建时间</label>
@@ -216,6 +151,7 @@ function checkForm() {
 <!--               <input type="hidden" name="orders.createTime" value="${orders.createTime }"/> -->
 			</div>
 			</s:if>
+			<hr />
 			
 			<s:if test="#request.orders==null">
 				<input type="hidden" name="orders.kind"  id="kindId1"/>
@@ -260,35 +196,86 @@ function checkForm() {
                 <input type="text" value="${orders.mark }" name="orders.mark"  class="form-control col-md-6" />
             </div>
 
-            <div class="form-group">
-                <label for="inputID" class="col-md-2 control-label">定制文字</label>
-                <input type="text" value="${orders.customerWord }" name="orders.customerWord"  class="form-control col-md-6" />
-            </div>
-
-			<!-- 图片 -->
-            <!-- 修改时显示 -->
-            <s:if test="#request.orders!= null">
-            <div class="form-group">
-                <label for="inputID" class=" control-label">定制图片</label>
-                <a href="download/picture?downloadFileName=${orders.customerPicture }">
-                <img src="file/${orders.customerPicture }" width="160" height="120" /></a>
-                
-                <label for="inputID" class=" control-label">设计图案</label>
-                <a href="download/picture?downloadFileName=${orders.designPicture }" target="_blank">
-                <img src="file/${orders.designPicture }" width="160" height="120" /></a>
-            </div>
-            </s:if>
+			<!-- xiaohong -->
+            <c:if test="${empty orders or empty orders.customerPicture }"> </c:if>
+            <c:if test="${not empty orders and empty orders.designPicture}"></c:if>
+            <c:if test="${not empty orders.customerPicture }"></c:if>
             
-            <div id="imgdiv1">
-                <img id="customerPictureShow" width="160" height="100" alt="图片预览"/>
-                <button class="btn btn-default" type="button" onclick="viewNow('customerPictureId')">上传定制图片</button>
-                <input name="customerPicture" type="file" id="customerPictureId" onchange="updateCheck(this)" style="display: none;"/>
+			<!-- 图片 -->			
+            <!-- 录入时显示 -->            
+            <div class="form-group" id="pn1">
+                <label for="inputID" class="col-md-2 control-label">定制文字</label>
+                <input type="text" value="${orders.customerWord }" name="orders.customerWord"  class="form-control col-md-6" id="ocwText1"/>
+                <input type="hidden" value="${orders.customerPicture }" name="orders.customerPicture" id="ocpHidden1"/>
+                <input type="hidden" value="${orders.designPicture }" name="orders.designPicture" id="odpHidden1"/>
+	            
+            	<div class="col-sm-3">
+	            <div id="imgDiv1">
+	                <img id="customerPictureShow1" src="file/${orders.customerPicture }"
+	                	 alt="定制图片" title="定制图片" onclick="viewNow('customerPictureId1')"/>
+	                
+					<div class="hover">
+						<a target="_self" href="download/picture?downloadFileName=${orders.customerPicture }">download</a>
+					</div>	                
+					
+	                <!-- <button class="btn btn-default" type="button" onclick="viewNow('customerPictureId')">上传定制图片</button> -->
+	                <input name="customerPicture" type="file" id="customerPictureId1" onchange="updateCheck(this)" style="display: none;"/>
+	                
+	                
+            		<!-- 修改时显示 -->
+            		<div class="isModify">
+	                <img id="designPictureShow1" src="file/${orders.designPicture }"
+	                	 alt="设计图案" title="设计图案" onclick="viewNow('designPictureId1')"/>
+
+					<div class="hover">
+						<a target="_self" href="download/picture?downloadFileName=${orders.designPicture }">download</a>
+					</div>	           
+	                
+<!-- 	                <button class="btn btn-default" type="button" onclick="viewNow('designPictureId1')">上传设计图案</button> -->
+	                <input name="designPicture" type="file" id="designPictureId1" onchange="updateCheck(this)" style="display: none;"/>
+	                </div>
+	            </div>
+	            <button class="btn btn-default" onclick="clearPicture('pn1')" type="button">清除该信息</button></div>
             </div>
-            <div id="imgdiv2">
-`                <img id="designPictureShow" width="160" height="100" alt="图片预览"/>
-                 <button class="btn btn-default" type="button" onclick="viewNow('designPictureId')">上传设计图案</button>
-                 <input name="designPicture" type="file" id="designPictureId" onchange="updateCheck(this)" style="display: none;"/>
+            
+            <!-- pictureNumber、wordNumber、customerWord、customerWordName、imgDiv、
+            ocwText、ocpHidden、odpHidden、
+            customerPictureShow、customerPicture、customerPictureName、customerPictureId、
+            designPictureShow、designPicture、designPictureName、designPictureId、 -->            
+            <section id="pictureMustache" style="display: none;">
+            <div class="form-group" id="{{pictureNumber }}">
+                <label for="inputID" class="col-md-2 control-label">{{wordNumber }}</label>
+                <input type="text" value="{{customerWord }}" name="{{customerWordName }}"  class="form-control col-md-6" id="{{ocwText }}"/>
+                <input type="hidden" value="{{customerPicture }}" name="{{ordersCustomerPictureName }}" id="{{ocpHidden }}"/>
+                <input type="hidden" value="{{designPicture }}" name="{{ordersDesignPictureName }}" id="{{odpHidden }}"/>
+	            
+            	<div class="col-sm-3">
+	            <div id="{{imgDiv }}">
+	                <img id="{{customerPictureShow }}" src="file/{{customerPicture }}"
+	                	 alt="定制图片" title="定制图片" onclick="viewNow('{{customerPictureId }}')"/>
+	                
+					<div class="hover">
+						<a target="_self" href="download/picture?downloadFileName={{customerPicture }}">download</a>
+					</div>	                
+
+	                <input name="{{customerPictureName }}" type="file" id="{{customerPictureId }}" onchange="updateCheck(this)" style="display: none;"/>
+	                	                
+            		<!-- 修改时显示 -->
+            		<div class="isModify">
+	                <img id="{{designPictureShow }}" src="file/{{designPicture }}"
+	                	 alt="设计图案" title="设计图案" onclick="viewNow('{{designPictureId }}')"/>
+	                	 
+					<div class="hover">
+						<a target="_self" href="download/picture?downloadFileName={{designPicture }}">download</a>
+					</div>	                
+					
+	                <input name="{{designPictureName }}" type="file" id="{{designPictureId }}" onchange="updateCheck(this)" style="display: none;"/>
+	                </div>
+	            </div>
+	            <button class="btn btn-default" onclick="clearPicture('{{pictureNumber }}')" type="button">清除该信息</button></div>
             </div>
+            </section>                        
+			
 			
          	<!-- input -->
 			<input type="hidden" value="${orders.id }" name="orders.id" id="ordersId"/>
@@ -302,6 +289,53 @@ function checkForm() {
 		</div>
 		</div>
 	</div>
+	
+<!--  图片预览 -->
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/uploadPreview.min.js"></script>
+<script type="text/javascript" src="js/foreground/orders-ordersCreate.js"></script>
+<script type="text/javascript">
+// 获取后台数据（定制文字、定制图片、设计图片），写入数组 --- 全局变量
+data= new Array(4);
+data[0]= {
+	"cw": "${orders.customerWord2}",
+	"cp": "${orders.customerPicture2}",
+	"dp": "${orders.designPicture2}"
+};
+data[1]= {
+		"cw": "${orders.customerWord3}",
+		"cp": "${orders.customerPicture3}",
+		"dp": "${orders.designPicture3}"
+	};
+data[2]= {
+		"cw": "${orders.customerWord4}",
+		"cp": "${orders.customerPicture4}",
+		"dp": "${orders.designPicture4}"
+	};
+data[3]= {
+		"cw": "${orders.customerWord5}",
+		"cp": "${orders.customerPicture5}",
+		"dp": "${orders.designPicture5}"
+	};
+	
+// windowOnload
+window.onload= function() {
+	new uploadPreview({ UpBtn: "customerPictureId1", DivShow: "imgDiv1", ImgShow: "customerPictureShow1" });
+	new uploadPreview({ UpBtn: "designPictureId1", DivShow: "imgDiv1", ImgShow: "designPictureShow1" });	
+	
+	// 初始化--------
+	for(var i=0; i< data.length; i++) {
+		if(data[i]["cp"]!= "") {
+			pictureWordCreate(i+2);
+		} else {
+			if(i!= 0) {
+				pictureWordCreate(i+2);
+			}
+			break;
+		}
+	}
+	removeDesignPicture();
+};
+</script>
 	
 </body>
 </html>

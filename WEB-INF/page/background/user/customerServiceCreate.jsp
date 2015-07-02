@@ -15,33 +15,6 @@
 <title>客服信息更新</title>
 <meta charset="utf-8" >
 <link href="css/admin.css">
-<script type="text/javascript">
-function xmlCheck() {
-	$.post("customerService/bCreateRepeat"
-			, {username: $("#usernameId").val()
-				, id: $("#customerServiceId").val()}
-			, function(data) {
-				if(data.length> 0) {
-					$("#usernameId").focus();
-					alert(data.message);
-				}
-			});
-}
-
-function checkForm() {
-	/*
-	if(ue.getContentTxt()=="") {
-		alert("请输入内容");
-		return false;
-	}
-	if(customerServiceTypeId.selectedIndex== 0) {
-		alert("please selete the customerServiceType!!");
-		return false;
-	}
-	*/
-	return true;
-}
-</script>
 </head>
 <body>
     <div class="container-fluid" id="page-wrapper">
@@ -112,5 +85,6 @@ function checkForm() {
 		</div>
 	</div>
   </div>
+<script type="text/javascript" src="js/background/user-customerServiceCreate.js"></script>
 </body>
 </html>

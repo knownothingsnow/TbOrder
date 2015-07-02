@@ -15,21 +15,6 @@
 <base href="<%=basePath%>">
 <title>客服人员信息</title>
 <meta charset="utf-8" >
-<script type="text/javascript">
-function checkForm() {
-	/*
-	if(ue.getContentTxt()=="") {
-		alert("请输入内容");
-		return false;
-	}
-	if(customerServiceTypeId.selectedIndex== 0) {
-		alert("please selete the customerServiceType!!");
-		return false;
-	}
-	*/
-	return true;
-}
-</script>
 </head>
 <body>
     <div class="container-fluid" id="page-wrapper">
@@ -90,5 +75,6 @@ function checkForm() {
 		</div>
       </div>
 	</div>
+<script type="text/javascript" src="js/foreground/user-customerService.js"></script>
 </body>
 </html>
