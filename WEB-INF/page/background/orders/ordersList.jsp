@@ -88,7 +88,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<td><img src="file/${list.designPicture }" width="120" height="80" /></td>
 <!-- 					<td>${list.phone }</td> -->
 <!-- 					<td>${list.username }</td> -->
-					<td><fmt:formatDate value="${list.createTime }" type="date" pattern="yyyy-MM-dd" /></td>
+<!-- 					<td><fmt:formatDate value="${list.createTime }" type="date" pattern="yyyy-MM-dd" /></td> -->
+					<td>${list.createTime }</td>
 					<td>
 					<a href="orders/bcreateView?id=${list.id }" target="_blank" class="btn btn-default" >modify</a>
 					<a href="javascript:;" onclick="del('${list.id}')" class="btn btn-default" >delete</a>

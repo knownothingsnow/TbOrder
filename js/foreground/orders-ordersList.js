@@ -136,13 +136,22 @@ function toColor() {
 function toDetail(o) {
 	window.open("orders/createView?id="+ o);
 }
-function toDesign(o) {
-	$.getJSON("orders/toDesign",
-			{id: o}, 
-			function(json) {
-				alert(json.message);
-				if(json.message!= "操作失败,请检查订单状态") {
-					window.location.href= "orders/assignOrders";
-				}
-			});
+function toDesign(o, state) {
+	flag= true;
+	if(state== "待确认" && !confirm("该订单信息已经和买家沟通好了吗?")) {
+		flag= false;
+	}
+	if(state== "已发货" && !confirm("该订单商品已经到买家手里了吗?")) {
+		flag= false;
+	}
+	if(flag== true) {
+		$.getJSON("orders/toDesign",
+				{id: o}, 
+				function(json) {
+					alert(json.message);
+					if(json.message!= "操作失败,请检查订单状态") {
+						window.location.href= "orders/assignOrders";
+					}
+				});
+	}
 }
