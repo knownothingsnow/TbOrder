@@ -56,12 +56,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
               <p><strong>类型:</strong>${list.kind }</p>
               <p><strong>商品名:</strong>${list.name }</p>
               <p><strong>颜色:</strong>${list.color }</p>
-              
+              <br />
 <!--          <p><strong>录入时间:</strong><fmt:formatDate value="${list.createTime }" type="date" pattern="yyyy-MM-dd" /></p> -->
 			  <p><strong>录入时间:</strong>${list.createTime }</p>
               <p><strong>收货人:</strong>${list.username }</p>
               <p><strong>电话:</strong>${list.phone }</p>
-              <div class="btn-group btn-icno"  role="group">
+              <div class="btn-group btn-icon"  role="group">
                 <button type="button" class="btn btn-default" title="设计订单" onclick="toDesign('${list.id}', '${list.state }')"><i class="icon-plus-sign-alt icon-2x"></i></button>
                 <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')"><i class="icon-cog icon-2x"></i></button>
                 <button type="button" class="btn btn-default" title="撤销订单" onclick="del('${list.id}')"><i class="icon-share-alt icon-2x"></i></button>

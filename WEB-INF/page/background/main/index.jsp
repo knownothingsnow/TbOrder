@@ -21,14 +21,11 @@
 <title>TbOrderBackground</title>
 <meta charset="UTF-8">
 
-<!-- <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
-<%-- <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script> --%>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-1.9.1.min.js"></script>
 
-<%-- <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> --%>
-<script type="text/javascript" src="bootstrap-3.3.2/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 <!-- yangchen & lincanyue -->
 <link rel="stylesheet" type="text/css" href="css/main.css">

@@ -15,8 +15,6 @@
 <base href="<%=basePath%>">
 <title>加工部人员信息</title>
 <meta charset="utf-8" >
-<script type="text/javascript">
-</script>
 </head>
 <body>
     <div class="container-fluid" id="page-wrapper">

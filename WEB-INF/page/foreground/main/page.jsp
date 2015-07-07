@@ -4,8 +4,6 @@ String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 
-<!doctype html>
-<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>分页按钮</title>
@@ -59,11 +57,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<input type="button" value="显示" onclick="xmlPage(4)"  class="btn btn-info"/> -->
 </div>
 
-<script type="text/javascript" src="js/foreground/main-page.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	pageCalcurate();
-});
+<script src="js/foreground/main-page.js"></script>
+<script>
+    $(document).ready(function() {
+        pageCalcurate();
+    });
 </script>
 </body>
-</html>

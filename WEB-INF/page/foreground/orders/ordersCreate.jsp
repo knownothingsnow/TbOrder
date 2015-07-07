@@ -294,47 +294,47 @@ img {
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/uploadPreview.min.js"></script>
 <script type="text/javascript" src="js/foreground/orders-ordersCreate.js"></script>
 <script type="text/javascript">
-// 获取后台数据（定制文字、定制图片、设计图片），写入数组 --- 全局变量
-data= new Array(4);
-data[0]= {
-	"cw": "${orders.customerWord2}",
-	"cp": "${orders.customerPicture2}",
-	"dp": "${orders.designPicture2}"
-};
-data[1]= {
-		"cw": "${orders.customerWord3}",
-		"cp": "${orders.customerPicture3}",
-		"dp": "${orders.designPicture3}"
-	};
-data[2]= {
-		"cw": "${orders.customerWord4}",
-		"cp": "${orders.customerPicture4}",
-		"dp": "${orders.designPicture4}"
-	};
-data[3]= {
-		"cw": "${orders.customerWord5}",
-		"cp": "${orders.customerPicture5}",
-		"dp": "${orders.designPicture5}"
-	};
-	
-// windowOnload
-window.onload= function() {
-	new uploadPreview({ UpBtn: "customerPictureId1", DivShow: "imgDiv1", ImgShow: "customerPictureShow1" });
-	new uploadPreview({ UpBtn: "designPictureId1", DivShow: "imgDiv1", ImgShow: "designPictureShow1" });	
-	
-	// 初始化--------
-	for(var i=0; i< data.length; i++) {
-		if(data[i]["cp"]!= "") {
-			pictureWordCreate(i+2);
-		} else {
-			if(i!= 0) {
-				pictureWordCreate(i+2);
-			}
-			break;
-		}
-	}
-	removeDesignPicture();
-};
+    // 获取后台数据（定制文字、定制图片、设计图片），写入数组 --- 全局变量
+    data= new Array(4);
+    data[0]= {
+        "cw": "${orders.customerWord2}",
+        "cp": "${orders.customerPicture2}",
+        "dp": "${orders.designPicture2}"
+    };
+    data[1]= {
+            "cw": "${orders.customerWord3}",
+            "cp": "${orders.customerPicture3}",
+            "dp": "${orders.designPicture3}"
+        };
+    data[2]= {
+            "cw": "${orders.customerWord4}",
+            "cp": "${orders.customerPicture4}",
+            "dp": "${orders.designPicture4}"
+        };
+    data[3]= {
+            "cw": "${orders.customerWord5}",
+            "cp": "${orders.customerPicture5}",
+            "dp": "${orders.designPicture5}"
+        };
+
+    // windowOnload
+    window.onload= function() {
+        new uploadPreview({ UpBtn: "customerPictureId1", DivShow: "imgDiv1", ImgShow: "customerPictureShow1" });
+        new uploadPreview({ UpBtn: "designPictureId1", DivShow: "imgDiv1", ImgShow: "designPictureShow1" });
+
+        // 初始化--------
+        for(var i=0; i< data.length; i++) {
+            if(data[i]["cp"]!= "") {
+                pictureWordCreate(i+2);
+            } else {
+                if(i!= 0) {
+                    pictureWordCreate(i+2);
+                }
+                break;
+            }
+        }
+        removeDesignPicture();
+    };
 </script>
 	
 </body>

@@ -13,31 +13,23 @@
 <%@taglib uri="/struts-tags" prefix="s" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<!DOCTYPE HTML>
-<html>
+
+
 <head>
-<base href="<%=basePath%>">
-<title>TbOrderForeground</title>
-<meta charset="UTF-8">
+    <base href="<%=basePath%>">
+    <title>TbOrderForeground</title>
+    <meta charset="UTF-8">
 
-<!-- <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
-<%-- <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script> --%>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-1.9.1.min.js"></script>
 
-<%-- <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> --%>
-<script type="text/javascript" src="bootstrap-3.3.2/dist/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/index.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/pagination.css"/>
 
-<!-- xiaohong -->
-<link rel="stylesheet" type="text/css" href="css/common.css">
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/mustache.js"></script>
+    <!-- xiaohong -->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
 
 </head>
 <body>
@@ -54,17 +46,17 @@
 	        </div>
 	    </div>
 	</nav>
-	
+
 	<div class="wrapper">
 	  <div class="side-nav">
 	    <ul>
 	      <li><a href="orders/list">浏览订单</a></li>
-	      
-	      <li><a href="orders/assignOrders">	      	
+
+	      <li><a href="orders/assignOrders">
 		      <c:if test="${empty sessionScope.process }">设计订单</c:if>
 		      <c:if test="${not empty sessionScope.process }">制作订单</c:if>
 	      </a></li>
-	      	
+
 	      <c:if test="${empty sessionScope.process }">
 		      <li><a href="orders/createView">录入订单</a></li>
 		      <li><a href="orders/assignOrders?state=已删除">回收站</a></li>
@@ -75,5 +67,12 @@
 		<jsp:include page="<%=MainPage %>"></jsp:include>
 	  </div><!--content end-->
 	</div><!--wrapper end-->
+
+
+    <!-- xiaohong -->
+    <script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/mustache.js"></script>
 </body>
-</html>
+

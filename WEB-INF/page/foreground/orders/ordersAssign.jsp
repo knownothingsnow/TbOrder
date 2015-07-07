@@ -36,15 +36,19 @@
               <p><strong>类型:</strong>${list.kind }</p>
               <p><strong>商品名:</strong>${list.name }</p>
               <p><strong>颜色:</strong>${list.color }</p>
-              
+              <br/>
               <p><strong>录入时间:</strong>${list.createTime }</p>
               <p><strong>收货人:</strong>${list.username }</p>
               <p><strong>电话:</strong>${list.phone }</p>
               <div class="btn-group btn-icno"  role="group">
               	<c:if test="${not empty sessionScope.process }">
-              		<button id="toDesignId" type="button" class="btn btn-default" title="已发货" onclick="toDesign('${list.id }')"><i class="icon-plus-sign-alt icon-2x"></i></button>
+              		<button id="toDesignId" type="button" class="btn btn-default" title="已发货" onclick="toDesign('${list.id }')">
+                        <i class="icon-plus-sign-alt icon-2x"></i>
+                    </button>
               	</c:if>
-                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')"><i class="icon-cog icon-2x"></i></button>
+                    <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('${list.id }')">
+                        <i class="icon-cog icon-2x"></i>
+                    </button>
               </div>
             </li>             
             </c:forEach>
@@ -71,9 +75,9 @@
              <p><strong>电话:</strong>{{phone }}</p>
              <div class="btn-group btn-icno"  role="group">
              	<c:if test="${not empty sessionScope.process }">
-             		<button id="toDesignId" type="button" class="btn btn-default" title="已发货" onclick="toDesign('{{id }}')"><i class="icon-plus-sign-alt icon-2x"></i></button>
+                <button id="toDesignId" type="button" class="btn btn-default" title="已发货" onclick="toDesign('{{id }}')"><i class="icon-plus-sign-alt icon-2x"></i></button>
              	</c:if>
-               <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('{{id }}')"><i class="icon-cog icon-2x"></i></button>
+                <button type="button" class="btn btn-default" title="详细信息" onclick="toDetail('{{id }}')"><i class="icon-cog icon-2x"></i></button>
              </div>
            </li>             
          </ul>
@@ -84,17 +88,17 @@
 	</section>
 <script type="text/javascript" src="js/foreground/orders-ordersAssign.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-	var me= "${message}";
-	if(me== "delete") {
-		$("#header-of-page").text("回收站");
-		$("#toDesignId").css("display", "none");
-	} else if(me== "design") {
-		$("#header-of-page").text("正在设计");
-	} else if(me== "process") {
-		$("#header-of-page").text("正在加工");
-	}
-});
+    $(document).ready(function() {
+        var me= "${message}";
+        if(me== "delete") {
+            $("#header-of-page").text("回收站");
+            $("#toDesignId").css("display", "none");
+        } else if(me== "design") {
+            $("#header-of-page").text("正在设计");
+        } else if(me== "process") {
+            $("#header-of-page").text("正在加工");
+        }
+    });
 </script>
 </body>
 </html>
