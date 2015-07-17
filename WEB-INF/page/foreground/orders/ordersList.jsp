@@ -152,5 +152,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div><!--row end-->
   </div><!-- container-fluid end -->
   <script type="text/javascript" src="js/foreground/orders-ordersList.js"></script>
+  <script type="text/javascript">
+	//$(document).ready(function(){
+	window.onload= function() {
+		// 预选择加载
+		var pro= "${sessionScope.process }";
+		var cus= "${sessionScope.customer }";
+		if(pro!= "") {
+			$("#stateId option:contains('待加工')").attr("selected", true);
+			$("#stateId").change();
+		} else if(cus!= "") {
+			$("#stateId option:contains('待分发')").attr("selected", true);
+			$("#stateId").change();
+		}
+	};
+  </script>
   </body>
 </html>

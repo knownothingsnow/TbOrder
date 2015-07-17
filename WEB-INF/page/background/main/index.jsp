@@ -30,7 +30,7 @@
 <!-- yangchen & lincanyue -->
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/index.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="Font-Awesome-3.2.1/css/font-awesome.min.css">
 
 <!-- xiaohong -->
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/common.css">

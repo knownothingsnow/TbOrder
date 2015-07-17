@@ -59,8 +59,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <script src="js/foreground/main-page.js"></script>
 <script>
-    $(document).ready(function() {
+    //$(document).ready(function() {
+	window.onload= function() {
         pageCalcurate();
-    });
+    };
 </script>
 </body>

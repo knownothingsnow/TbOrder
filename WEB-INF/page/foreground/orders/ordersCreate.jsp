@@ -319,6 +319,10 @@ img {
 
     // windowOnload
     window.onload= function() {
+		var mess= "${message }";
+		if(mess!= null && mess!= "") {
+			alert(mess);
+		}
         new uploadPreview({ UpBtn: "customerPictureId1", DivShow: "imgDiv1", ImgShow: "customerPictureShow1" });
         new uploadPreview({ UpBtn: "designPictureId1", DivShow: "imgDiv1", ImgShow: "designPictureShow1" });
 
